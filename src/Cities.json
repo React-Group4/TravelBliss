@@ -1,0 +1,130 @@
+[
+    {
+      "name": "Paris, France",
+      "image_url": "https://res.klook.com/image/upload/Mobile/City/swox6wjsl5ndvkv5jvum.jpg",
+      "description": "The City of Light is known for its romantic ambiance, world-class art, and gourmet cuisine.",
+      "price": "1000"
+           
+    },
+  {
+      "name": "Kyoto, Japan",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYwIV85vGVElGwZklkAxTZ5CH7m19-gO1tuA&usqp=CAU",
+      "description": "Kyoto is a historic city in Japan known for its temples, shrines, and traditional tea houses.",
+      "price": "1200"
+  
+    },
+  {
+      "name": "New York City, USA",
+      "image_url": "https://example.com/nyc.jpg",
+      "description": "The Big Apple is a bustling metropolis known for its iconic skyline, diverse culture, and endless entertainment options.",
+      "price": "1500"
+  
+  
+    },
+  {
+      "name": "Cape Town, South Africa",
+      "image_url": "https://example.com/capetown.jpg",
+      "description": "Cape Town is a vibrant coastal city known for its stunning natural beauty, diverse culture, and outdoor activities.",
+      "price": "1300"
+  
+    },
+  {
+      "name": "Sydney, Australia",
+      "image_url": "https://example.com/sydney.jpg",
+      "description": "Sydney is a vibrant city known for its stunning beaches, iconic landmarks, and diverse culture.",
+      "price": "1600"
+  
+    },
+    {
+      "name": "Rio de Janeiro, Brazil",
+      "image_url": "https://example.com/rio.jpg",
+      "description": "Rio de Janeiro is a vibrant city known for its stunning beaches, samba music, and iconic landmarks like Christ the Redeemer statue.",
+      "price": "1400"
+    },
+      {
+        "name": "Barcelona, Spain",
+        "image_url": "https://example.com/barcelona.jpg",
+        "description": "Barcelona is a vibrant city known for its rich history, stunning architecture, and lively cultural scene.",
+        "price": "1100"
+    },
+    {
+      "name": "Tokyo, Japan",
+      "image_url": "https://example.com/tokyo.jpg",
+      "description": "Tokyo is a bustling metropolis known for its high-tech innovations, historic temples, and vibrant street life.",
+      "price": "1700"
+    },
+    {
+      "name": "Venice, Italy",
+      "image_url": "https://example.com/venice.jpg",
+      "description": "Venice is a unique city built on water, known for its beautiful canals, historic architecture, and rich cultural heritage.",
+      "price": "1250"
+    },
+    {
+      "name": "Dubai, UAE",
+      "image_url": "https://example.com/dubai.jpg",
+      "description": "Dubai is a modern city known for its futuristic architecture, luxury shopping, and vibrant nightlife.",
+      "price": "1800"
+    },
+    {
+      "name": "Marrakech, Morocco",
+      "image_url": "https://example.com/marrakech.jpg",
+      "description": "Marrakech is a vibrant city in Morocco known for its colorful markets, historic palaces, and lively atmosphere.",
+      "price": "1350"
+    },
+    {
+      "name": "London, UK",
+      "image_url": "https://example.com/london.jpg",
+      "description": "London is the capital city of England and is known for its rich history, iconic landmarks, and diverse cultural scene.",
+      "price": "1550"
+    },
+    {
+      "name": "Amsterdam, Netherlands",
+      "image_url": "https://example.com/amsterdam.jpg",
+      "description": "Amsterdam is the capital city of the Netherlands, known for its picturesque canals, historic architecture, and vibrant cultural scene.",
+      "price": "1450"
+    },
+    {
+      "name": "Prague, Czech Republic",
+      "image_url": "https://example.com/prague.jpg",
+      "description": "Prague is the capital city of the Czech Republic, renowned for its stunning medieval architecture, historic sites, and charming Old Town.",
+      "price": "1280"
+    },
+    {
+      "name": "Singapore",
+      "image_url": "https://example.com/singapore.jpg",
+      "description": "Singapore is a bustling city-state known for its modern architecture, vibrant culture, and diverse culinary scene.",
+      "price": "1650"
+    },
+  {
+    "name": "Bali, Indonesia",
+    "image_url": "https://s27363.pcdn.co/wp-content/uploads/2023/06/Bali-Bucket-List-1200x900.jpg.optimal.jpg",
+    "description": "Relax on the beautiful beaches of Bali, explore ancient temples, and experience the unique Balinese culture.",
+    "price": "400$"
+  },
+  {
+    "name": "Athens, Greece",
+    "image_url": "https://www.planetware.com/wpimages/2019/09/greece-athens-visiting-acropolis-odeon-of-herodes.jpg",
+    "description": "Discover the ancient history of Athens, with iconic landmarks like the Acropolis and Parthenon.",
+    "price": "370$"
+  },
+  {
+    "name": "Cairo, Egypt",
+    "image_url": "https://static.saltinourhair.com/wp-content/uploads/2019/03/23140923/cairo-pyramids-giza.jpg",
+    "description": "Explore the historic city of Cairo, home to the Pyramids of Giza and the Sphinx.",
+    "price": "90$"
+  },
+  {
+    "name": "Stockholm, Sweden",
+    "image_url": "https://media.nomadicmatt.com/2022/swedencostnew.jpg",
+    "description": "Experience the modern design and historic charm of Stockholm, known for its archipelago and cultural attractions.",
+    "price": "700$"
+  },
+  {
+    "name": "Hanoi, Vietnam",
+    "image_url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/33/f7/12/caption.jpg",
+    "description": "Discover the vibrant street life and rich history of Hanoi, with its ancient temples and delicious street food.",
+    "price": "1000$"
+  }
+  ]
+  
+  

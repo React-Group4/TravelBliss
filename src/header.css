@@ -1,0 +1,11 @@
+.st:hover{
+    text-decoration: underline;
+    
+}
+
+.co{
+    background-image: url('./2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

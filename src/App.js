@@ -11,6 +11,7 @@ import AnimatedBackground from './AnimatedBackground';
 
 
 function App() {
+
   return (
    <>
       <AnimatedBackground />
@@ -25,7 +26,7 @@ function App() {
     </Router>
 
       
- 
+      
       </>
       
   );

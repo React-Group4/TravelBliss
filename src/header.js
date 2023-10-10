@@ -10,7 +10,7 @@ function Header() {
     
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container >
-        <Navbar.Brand href="#home" style={{fontSize:"40px" , textShadow:" 2px 2px 4px #000000" }}>TravelBliss</Navbar.Brand>
+        <Navbar.Brand href="" style={{fontSize:"40px" , textShadow:" 2px 2px 4px #000000" }}>TravelBliss</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto" >

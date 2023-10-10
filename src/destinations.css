@@ -1,0 +1,35 @@
+#filterForm {
+    margin-top:3%;
+    margin-left:25%;
+    width: 740px;
+
+}
+h4 {
+    margin-top: 2%;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(214, 218, 221);
+    text-align: center;
+}
+
+.section-heading::before {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 100%;
+    background-color:rgb(214, 218, 221); 
+    margin-top: 2%; 
+    margin-bottom: 10px;
+  }
+
+  .section-heading::after {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 100%;
+    background-color:rgb(214, 218, 221);
+    margin-top: 10px; 
+    margin-bottom: 10px;
+  }
+  

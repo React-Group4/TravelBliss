@@ -21,6 +21,7 @@ function Header() {
             <Nav.Link href="/destination" style={{fontSize:"25px" , color:"black" , color:"white" }} className='st'> ⌖ Destination</Nav.Link>
             <Nav.Link href="/favorites" style={{fontSize:"25px" , color:"black" , color:"white"}} className='st'> ♡ Favorites</Nav.Link>
             <Nav.Link href="/about-us" style={{fontSize:"25px" , color:"black" , color:"white"}} className='st'> ✆ About Us</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

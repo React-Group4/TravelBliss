@@ -18,7 +18,7 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto" >
             <Nav.Link href="/" style={{fontSize:"25px" , color:"black" , color:"white"}} className='st'> ⌂ Home</Nav.Link>
-            <Nav.Link href="/destination" style={{fontSize:"25px" , color:"black" , color:"white" }} className='st'> ⌖ Destination</Nav.Link>
+            <Nav.Link href="/destination" style={{fontSize:"25px" , color:"black" , color:"white" }} className='st'> ⌖ Destinations</Nav.Link>
             <Nav.Link href="/favorites" style={{fontSize:"25px" , color:"black" , color:"white"}} className='st'> ♡ Favorites</Nav.Link>
             <Nav.Link href="/about-us" style={{fontSize:"25px" , color:"black" , color:"white"}} className='st'> ✆ About Us</Nav.Link>
 

@@ -5,33 +5,34 @@ import Hotels from './Hotels.json'
 import {useEffect, useState } from 'react';
 import Cardcomp from './card';
 import './card.css';
+import './destinations.css';
 
 function Destinations(){
-    const [res, setRes] = useState([]);
-    const [hot, sethot] = useState([]);
+    const [restaurants, setRestaurants] = useState([]);
+    const [hotels, setHotels] = useState([]);
     const [selectedCity, setSelectedCity] = useState('Select a city');
 
     useEffect(() => {
-        setRes(Restaurants);
-        sethot(Hotels);
+      setRestaurants(Restaurants);
+      setHotels(Hotels);
       }, []);
 
     function handelChange(event){
-      const changedValue = event.target.value;
-      setSelectedCity(changedValue);
-      if (changedValue === 'Select a city') {
-        setRes(Restaurants);
-        sethot(Hotels);
+      const changedCity = event.target.value;
+      setSelectedCity(changedCity);
+      if (changedCity === 'Select a city') {
+        setRestaurants(Restaurants);
+        setHotels(Hotels);
       } else {
-      let filteredRestaurants = Restaurants.filter(function(restaurant){return restaurant.city == changedValue})
-      setRes(filteredRestaurants)
-      let filteredHotels = Hotels.filter(function(hotel){return hotel.city == changedValue})
-      sethot(filteredHotels)
+      let filteredRestaurants = Restaurants.filter(function(restaurant){return restaurant.city == changedCity})
+      setRestaurants(filteredRestaurants)
+      let filteredHotels = Hotels.filter(function(hotel){return hotel.city == changedCity})
+      setHotels(filteredHotels)
 
     }}
     return (
 <>
-<Form.Select aria-label="Default select example" onChange={handelChange} value={selectedCity}>
+<Form.Select id='filterForm' onChange={handelChange} value={selectedCity}>
       <option value="Select a city">Select a city</option>
       {Cities.map((city) => (
           <option value={city.name}>
@@ -39,15 +40,33 @@ function Destinations(){
           </option>
         ))}
     </Form.Select>
+    <h4 class="section-heading"> Restaurants </h4>
     <div className="cardContainer">
-        {res.map((item) => (
-          <Cardcomp image_url={item.image_url} title={item.name}  city ={item.city} 
-        
+          {restaurants.map((restaurant) => (
+          <Cardcomp 
+          image={restaurant.image_url} 
+          title={restaurant.name} 
+          city ={restaurant.city}
+          address={restaurant.address}
+          rating= {restaurant.rating}
+          showDetails={false}
+          showAddress={true}
+          showRating={true}
           />
         ))}
-         {hot.map((item) => (
-          <Cardcomp image_url={item.image_url} title={item.name}  city ={item.city} 
-        
+    </div>
+    <h4 class="section-heading"> Hotels </h4>
+    <div className="cardContainer">
+         {hotels.map((hotel) => (
+          <Cardcomp
+           image={hotel.image_url}
+           title={hotel.name} 
+           city ={hotel.city} 
+           address={hotel.address}
+           rating= {hotel.rating}
+           showDetails={false}
+           showAddress={true}
+           showRating={true}
           />
         ))}
 

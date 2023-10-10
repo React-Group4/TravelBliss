@@ -1,24 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Destinations from './destinations';
+import Favorites from './favorites';
+import About_us from './about-us';
+import Main from './main';
+import AnimatedBackground from './AnimatedBackground';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+      <AnimatedBackground />
+      <Header />
+      <Router>
+      <Routes>
+        <Route path="/" Component={Main} ></Route>
+        <Route path="/destination" Component={Destinations} ></Route>
+        <Route path="/favorites" Component={Favorites} ></Route>
+        <Route path="/about-us" Component={About_us } ></Route>
+        </Routes>
+    </Router>
+
+      
+ 
+      </>
+      
   );
 }
 

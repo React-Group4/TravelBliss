@@ -7,11 +7,14 @@ import Destinations from './destinations';
 import Favorites from './favorites';
 import About_us from './about-us';
 import Main from './main';
+import AnimatedBackground from './AnimatedBackground';
+
 
 function App() {
 
   return (
    <>
+      <AnimatedBackground />
       <Header />
       <Router>
       <Routes>

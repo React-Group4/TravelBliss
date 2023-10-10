@@ -8,7 +8,7 @@ import './header.css';
 
 function Header() {
   return (
-    
+  
     <Navbar expand="lg" className="co" >
       <Container className='co'>
         <Navbar.Brand href="#home" style={{fontSize:"65px" , textShadow:" 2px 2px 4px #000000" , color:"white"}} >TravelBliss</Navbar.Brand>
@@ -25,7 +25,6 @@ function Header() {
     </Navbar>
   );
 }
-
 export default Header;
 
 

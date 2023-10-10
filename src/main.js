@@ -29,7 +29,14 @@ function Main(){
 
         {country.map(function(city){
             return(
-            <CardComp image={city.image_url} title={city.name} description={city.description}/>
+            <CardComp 
+            image={city.image_url}
+            title={city.name}
+            description={city.description}
+            showDetails={true}
+            showAddress={false}
+            showRating={false}
+            />
             )
         }    
     )

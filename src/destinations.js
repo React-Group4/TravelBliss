@@ -3,7 +3,7 @@ import Cities from './Cities.json';
 import Restaurants from './Restaurants.json'
 import Hotels from './Hotels.json'
 import {useEffect, useState } from 'react';
-import Cardcomp from './card';
+import CardComp from './card';
 import './card.css';
 import './destinations.css';
 
@@ -43,7 +43,7 @@ function Destinations(){
     <h4 class="section-heading"> Restaurants </h4>
     <div className="cardContainer">
           {restaurants.map((restaurant) => (
-          <Cardcomp 
+          <CardComp 
           image={restaurant.image_url} 
           title={restaurant.name} 
           city ={restaurant.city}
@@ -52,13 +52,14 @@ function Destinations(){
           showDetails={false}
           showAddress={true}
           showRating={true}
+          showFavorites={true}
           />
         ))}
     </div>
     <h4 class="section-heading"> Hotels </h4>
     <div className="cardContainer">
          {hotels.map((hotel) => (
-          <Cardcomp
+          <CardComp
            image={hotel.image_url}
            title={hotel.name} 
            city ={hotel.city} 
@@ -67,6 +68,7 @@ function Destinations(){
            showDetails={false}
            showAddress={true}
            showRating={true}
+           showFavorites={true}
           />
         ))}
 

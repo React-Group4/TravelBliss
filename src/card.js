@@ -18,12 +18,27 @@ function CardComp (props){
     }
     return stars;
   }
+
+  function saveToLocalStorage(){
+    if(localStorage.getItem("Favorites")){
+    let arr = JSON.parse(localStorage.getItem("Favorites"))
+    arr.push(props)
+    let stringData = JSON.stringify(arr)
+    localStorage.setItem("Favorites",stringData)}
+    else{
+      let arr = []
+      arr.push(props)
+      let stringData = JSON.stringify(arr)
+      localStorage.setItem("Favorites",stringData)} 
+
+    } 
+
 return(
   <>
     <Card style={{ width: '18rem' }}>
     <Card.Img
       variant="top"
-      src={props.image}
+      src={props.image} 
       style={{ height: '200px', objectFit: 'cover' }} 
     />
     <Card.Body>
@@ -36,6 +51,10 @@ return(
    {props.showAddress? <Button variant="primary" onClick={handleshow} >Show Address</Button>
    : <Button variant="primary" onClick={handleshow} style={{display:"none"}}>Show Address</Button>
    }
+   {props.showFavorites? <Button variant="primary" onClick={saveToLocalStorage} >Add To Favorites</Button>
+   : <Button variant="primary" onClick={saveToLocalStorage} style={{display:"none"}}>Add To Favorites</Button>}
+   {props.showRemove? <Button variant="primary" onClick={props.RemoveFromFavorites}>Remove</Button>
+    : <Button variant="primary" onClick={props.RemoveFromFavorites} style={{display:"none"}}>Remove</Button> }
     </Card.Body>
     </Card>
         <Modal show={show} onHide={handleshow}>

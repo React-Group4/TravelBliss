@@ -5,3 +5,12 @@
     margin-top:3%;
     gap: 20px;
 }
+
+#cardsFavorites{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:9%;
+    gap: 20px;
+
+}

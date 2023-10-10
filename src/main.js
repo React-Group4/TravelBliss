@@ -2,8 +2,9 @@ import { useState } from "react";
 import CardComp from "./card";
 import './card.css';
 import Cities from './Cities.json';
-
-
+import './main.css';
+import { Form } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 function Main(){
     let [country, setCuontry] = useState(Cities)
@@ -17,13 +18,18 @@ function Main(){
 
     }
 
-    return(
-        <>
-
-        <form onSubmit={handleSubmit}>
-        <input type="text" country="search"/>
-        <button type='submit'>Search</button>
-        </form>
+return (
+    <>
+          <Form className="d-flex" onSubmit={handleSubmit} id= "searchForm">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+              name='search'
+            />
+            <Button variant="outline-success" type="submit">Search</Button>
+          </Form>
 
         <div className="cardContainer">
 

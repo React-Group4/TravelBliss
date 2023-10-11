@@ -20,8 +20,8 @@ function Favorites(){
         {FavoriteState.map(function(restaurant,index){
             return(
                 <CardComp 
-                image={restaurant.image_url}
-                title={restaurant.name} 
+                image={restaurant.image}
+                title={restaurant.title} 
                 city ={restaurant.city}
                 address={restaurant.address}
                 rating= {restaurant.rating}

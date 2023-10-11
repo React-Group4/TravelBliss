@@ -1,7 +1,6 @@
 [
     {
       "name": "Le Jules Verne",
-      "type": "French",
       "city":"Paris, France",
       "image_url": "https://bonjourparis.com/wp-content/uploads/2020/02/Interiors-LJV_Trocadero_02_Copyright-Marie-Line-Sina-min-min.jpg",
       "rating": 2,
@@ -9,794 +8,695 @@
     },
     {
       "name": "Chez L'Ami Jean",
-      "type": "French",
       "city":"Paris, France",
       "image_url": "https://i.pinimg.com/originals/e1/e3/5b/e1e35b106af73c607246a8310f59bd58.jpg",
-      "rating": 4.3,
+      "rating": 4,
       "address": "27 Rue Malar, 75007 Paris, France"
     },
 {
 "name": "L'Ambroisie",
-"type": "French",
 "city": "Paris, France",
 "image_url": "https://www.experiencedtravellers.com/wp-content/uploads/2023/03/LAmbroisie-in-Paris.jpg",
-"rating": 4.7,
+"rating": 3,
 "address": "9 Place des Vosges, 75004 Paris, France"
 },
 {
 "name": "Le Comptoir du Relais",
-"type": "French",
 "city": "Paris, France",
 "image_url": "https://media.timeout.com/images/105420341/image.jpg",
-"rating": 4.4,
+"rating": 5,
 "address": "9 Carrefour de l'Odéon, 75006 Paris, France"
 },
 {
 "name": "Le Jardin des Sens",
-"type": "French",
 "city": "Paris, France",
 "image_url": "https://www.guides-restaurants.fr/wp-content/gallery/restaurant-le-jardin-des-sens/restaurant-le-jardin-des-sens-2.jpg",
-"rating": 4.2,
+"rating": 5,
 "address": "11 Rue Louis Armand, 75015 Paris, France"
 },
 {
       "name": "Ippudo Kyoto",
-      "type": "Japanese",
       "city": "Kyoto, Japan",
       "image_url": "https://i.pinimg.com/736x/1f/0a/72/1f0a723e7b8ceb5f7c796c7c87bbde1f.jpg",
-      "rating": 4.4,
+      "rating": 4,
       "address": "653-1 Bantoyachō, Higashiyama-ku, Kyoto, 605-0078, Japan"
     },
     {
       "name": "Gion Kappa",
-      "type": "Japanese",
       "city": "Kyoto, Japan",
       "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/05/f2/7e/b0/gion-kappa.jpg",
-      "rating": 4.2,
+      "rating": 5,
       "address": "459-2 Shimokorikichō, Higashiyama-ku, Kyoto, 605-0086, Japan"
     },
 {
 "name": "Kikunoi",
-"type": "Japanese",
 "city": "Kyoto, Japan",
 "image_url": "https://d267qvt8mf7rfa.cloudfront.net/restaurant/111/mainImage.jpg",
-"rating": 4.6,
+"rating": 3,
 "address": "459 Shimokawaracho, Higashiyama Ward, Kyoto, 605-0825, Japan"
 },
 {
 "name": "Arashiyama Bamboo Grove Restaurant",
-"type": "Japanese",
 "city": "Kyoto, Japan",
 "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZAyIixa5FBRsxVQwQZLpuYKd3CDc6WRhegjn7wtTnahe9RqDKNf4MUixnpZ-V3AfVFqg&usqp=CAU",
-"rating": 4.3,
+"rating": 4,
 "address": "27-11 Sagatenryuji Susukinobabacho, Ukyo Ward, Kyoto, 616-8385, Japan"
 },
 {
 "name": "Kyoto Gogyo Ramen",
-"type": "Japanese",
 "city": "Kyoto, Japan",
 "image_url": "https://clairedelacachetteimaginarium.files.wordpress.com/2017/10/gogyo-tokyo-2.jpg?w=750",
-"rating": 4.0,
+"rating": 4,
 "address": "511 Higashishiokojicho, Shimogyo Ward, Kyoto, 600-8216, Japan"
 },
 {
       "name": "Le Bernardin",
-      "type": "French",
       "city": "New York City, USA",
       "image_url": "https://cdn.vox-cdn.com/thumbor/SNJPp-7VYaHnVezg--Fb7YYC4bU=/0x0:5549x3699/1200x0/filters:focal(0x0:5549x3699):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19533922/Le_Bernadin_5.jpg",
-      "rating": 4.8,
+      "rating": 4,
       "address": "155 W 51st St, New York, NY 10019, USA"
     },
     {
       "name": "Katz's Delicatessen",
-      "type": "Deli",
       "city": "New York City, USA",
       "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/08/6c/fd/d9/katz-s-deli.jpg",
-      "rating": 4.5,
+      "rating": 2,
       "address": "205 E Houston St, New York, NY 10002, USA"
     },
 {
 "name": "Gramercy Tavern",
-"type": "American",
 "city": "New York City, USA",
 "image_url": "https://res.cloudinary.com/the-infatuation/image/upload/q_auto,f_auto/cms/media/reviews/gramercy-tavern/banners/Gramercy-Tavern1_2",
-"rating": 4.7,
+"rating": 5,
 "address": "42 E 20th St, New York, NY 10003, USA"
 },
 {
 "name": "Joe's Pizza",
-"type": "Pizza",
 "city": "New York City, USA",
 "image_url": "https://images.squarespace-cdn.com/content/v1/5fb3405312797c6fcd738f7a/1605590146024-LI4P2W73KTV0F2FNFH44/Joes_Pizza_NYC_039.jpg",
-"rating": 4.6,
+"rating": 5,
 "address": "7 Carmine St, New York, NY 10014, USA"
 },
 {
 "name": "Eleven Madison Park",
-"type": "Contemporary American",
 "city": "New York City, USA",
 "image_url": "https://cdn.vox-cdn.com/thumbor/XW2uJVJVPjPiRPUAATN3J9qji3c=/0x0:5412x3608/1200x800/filters:focal(2274x1372:3138x2236)/cdn.vox-cdn.com/uploads/chorus_image/image/62861527/AC1I0203.0.jpg",
-"rating": 4.9,
+"rating": 3,
 "address": "11 Madison Ave, New York, NY 10010, USA"
 },
     {
       "name": "The Test Kitchen",
-      "type": "Modern South African",
       "city":  "Cape Town, South Africa",
       "image_url": "https://www.eatout.co.za/wp-content/uploads/2020/11/Screenshot-2022-07-25-at-15.34.46.jpg",
-      "rating": 4.7,
+      "rating": 2,
       "address": "The Old Biscuit Mill, 375 Albert Rd, Woodstock, Cape Town, 7915, South Africa"
     },
     {
       "name": "Willoughby & Co",
-      "type": "Seafood",
       "city":  "Cape Town, South Africa",
       "image_url": "https://sncdn.com/imagecache/db/id/692063/go165930.jpg",
-      "rating": 4.5,
+      "rating": 5,
       "address": "Victoria Wharf Shopping Centre, Breakwater Blvd, V&A Waterfront, Cape Town, 8001, South Africa"
     },
 {
 "name": "La Colombe",
-"type": "French Contemporary",
 "city": "Cape Town, South Africa",
 "image_url": "https://crushmag-online.com/wp-content/uploads/2018/07/La-colombe-new-1x56-1.jpg",
-"rating": 4.8,
+"rating": 3,
 "address": "Silvermist Wine Estate, Constantia Main Rd, Constantia, Cape Town, 7806, South Africa"
 },
 {
 "name": "The Pot Luck Club",
-"type": "Modern Tapas",
 "city": "Cape Town, South Africa",
 "image_url": "https://www.theworlds50best.com/discovery/filestore/jpg/ThePotLuckClub-CapeTown-South-Africa-01.jpg",
-"rating": 4.6,
+"rating": 5,
 "address": "The Old Biscuit Mill, 375 Albert Rd, Woodstock, Cape Town, 7915, South Africa"
 },
 {
 "name": "Baia Seafood Restaurant",
-"type": "Seafood",
 "city": "Cape Town, South Africa",
 "image_url": "https://baiarestaurant.co.za/images/inside.jpg",
-"rating": 4.4,
+"rating": 4,
 "address": "V&A Waterfront, Pierhead, Dock Rd, Cape Town, 8001, South Africa"
 },
 {
       "name": "Quay",
-      "type": "Australian",
       "city": "Sydney, Australia",
       "image_url": "https://www.therocks.com/getmedia/84353376-8c2d-4344-a914-9345ba674799/Circular-Quay-West-Promenade-2.jpg",
-      "rating": 4.7,
+      "rating": 3,
       "address": "Upper Level, Overseas Passenger Terminal, The Rocks, Sydney NSW 2000, Australia"
     },
     {
       "name": "Tetsuya's",
-      "type": "Japanese",
       "city": "Sydney, Australia",
       "image_url": "https://img.delicious.com.au/6BVFOC6i/del/2019/11/tetsuyas-sydney-118262-2.jpg",
-      "rating": 4.6,
+      "rating": 3,
       "address": "529 Kent St, Sydney NSW 2000, Australia"
     },
 {
 "name": "Aria",
-"type": "Modern Australian",
 "city": "Sydney, Australia",
 "image_url": "https://res.cloudinary.com/tf-lab/image/upload/restaurant/59c16574-8772-43ad-9cf1-cc36350e8264/351f664d-9132-41ac-9ae1-5e379735a7e9.jpg",
-"rating": 4.8,
+"rating": 4,
 "address": "1 Macquarie St, Sydney NSW 2000, Australia"
 },
 {
 "name": "Bennelong",
-"type": "Australian",
 "city": "Sydney, Australia",
 "image_url": "https://media.cntraveler.com/photos/5a906c8ed363c34048b35b2d/16:9/w_2560,c_limit/Bennelong-Bar_Brett-Stevens_2018_TheCircleInterior150626-0341A.jpg",
-"rating": 4.5,
+"rating": 5,
 "address": "Sydney Opera House, Bennelong Point, Sydney NSW 2000, Australia"
 },
 {
 "name": "Quanjude Sydney",
-"type": "Chinese",
 "city": "Sydney, Australia",
 "image_url": "https://cdn.concreteplayground.com/content/uploads/2018/05/QUANJUDE_Esteban-LaTessa-supplied3.jpg",
-"rating": 4.3,
+"rating": 5,
 "address": "Shop 1004, 99-111 Sussex St, Sydney NSW 2000, Australia"
 },
 {
       "name": "Churrascaria Palace",
-      "type": "Brazilian Steakhouse",
       "city": "Rio de Janeiro, Brazil",
       "image_url": "https://churrascariapalace.com.br/wp-content/uploads/2018/04/churrascaria_palace_salao.jpg",
-      "rating": 4.7,
+      "rating": 5,
       "address": "Rua Rodolfo Dantas, 16 - Copacabana, Rio de Janeiro - RJ, 22020-040, Brazil"
     },
     {
       "name": "Aprazível",
-      "type": "Brazilian",
       "city": "Rio de Janeiro, Brazil",
       "image_url": "https://www.feriasbrasil.com.br/fotosfb/178766089-G.jpg",
-      "rating": 4.6,
+      "rating": 4,
       "address": "Rua Aprazível, 62 - Santa Teresa, Rio de Janeiro - RJ, 20241-270, Brazil"
     },
 {
 "name": "Fogo de Chão",
-"type": "Brazilian Steakhouse",
 "city": "Rio de Janeiro, Brazil",
 "image_url": "https://ml.globenewswire.com/Resource/Download/aea7e9cf-9b42-4216-ae5f-711a121b3af4?size=3",
-"rating": 4.8,
+"rating": 4,
 "address": "Av. República do Chile, 230 - Centro, Rio de Janeiro - RJ, 20031-170, Brazil"
 },
 {
 "name": "Zazá Bistrô Tropical",
-"type": "Brazilian Fusion",
 "city": "Rio de Janeiro, Brazil",
 "image_url": "https://images.happycow.net/venues/1024/48/57/hcmp48578_1134721.jpeg",
-"rating": 4.5,
+"rating": 2,
 "address": "R. Joana Angélica, 40 - Ipanema, Rio de Janeiro - RJ, 22420-030, Brazil"
 },
 {
 "name": "Confeitaria Colombo",
-"type": "Brazilian Bakery",
 "city": "Rio de Janeiro, Brazil",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/0a/eb/3e/4e/viagem-no-tempo.jpg",
-"rating": 4.4,
+"rating": 1,
 "address": "Rua Gonçalves Dias, 32 - Centro, Rio de Janeiro - RJ, 20050-030, Brazil"
 },
 {
       "name": "Tickets",
-      "type": "Spanish Cuisine",
       "city":  "Barcelona, Spain",
       "image_url": "https://pillowandpepper.com/en/img/asset/bWFpbi9wcm9kdWN0L2kvYS9pYV9laW5nYW5nX3RpY2tldHNfYmFyY2Vsb25hLmpwZWc=?p=entryslide&s=ae9cb920d8f9d48ac57ad73e4acaf5d5",
-      "rating": 4.8,
+      "rating": 4,
       "address": "Avinguda del Paral·lel, 164, 08015 Barcelona, Spain"
     },
     {
       "name": "El Quim de la Boqueria",
-      "type": "Tapas",
       "city":  "Barcelona, Spain",
       "image_url": "https://homagetobcn.com/wp-content/uploads/2012/09/el-quim-de-la-boqueria.jpg",
-      "rating": 4.7,
+      "rating": 4,
       "address": "La Rambla, 91, 08001 Barcelona, Spain"
     },
 {
 "name": "Bodega 1900",
-"type": "Spanish Cuisine",
 "city": "Barcelona, Spain",
 "image_url": "https://media.cntraveler.com/photos/5a8db5fd873a2240b39ffefb/master/pass/Bodega1900_2018_Bodega1900-LOCAL-01.jpg",
-"rating": 4.6,
+"rating": 5,
 "address": "Carrer de Tamarit, 91, 08015 Barcelona, Spain"
 },
 {
 "name": "Ciutat Comtal",
-"type": "Tapas",
 "city": "Barcelona, Spain",
 "image_url": "https://images.schlouk-map.com/cache/gallery/uploads/images/places/ciutat-comtal-63edd98e048046.72528380.PNG",
-"rating": 4.5,
+"rating": 3,
 "address": "Rambla de Catalunya, 18, 08007 Barcelona, Spain"
 },
 {
 "name": "Casa Leopoldo",
-"type": "Mediterranean Cuisine",
 "city": "Barcelona, Spain",
 "image_url": "https://resizer.otstatic.com/v2/photos/wide-huge/1/25200516.jpg",
-"rating": 4.4,
+"rating": 2,
 "address": "Carrer de Sant Rafael, 24, 08001 Barcelona, Spain"
 },
 {
       "name": "Sukiyabashi Jiro",
-      "type": "Sushi",
       "city": "Tokyo, Japan",
       "image_url": "https://prod-rte-static.rakutentravelxchange.com/5b1bd127-d8d2-4832-bc46-f9a86ff965b0.jpg?height=500&format=webp",
-      "rating": 4.9,
+      "rating": 3,
       "address": "4 Chome-2-15 Ginza, Chuo City, Tokyo 104-0061, Japan"
     },
     {
       "name": "Ippudo Ramen",
-      "type": "Ramen",
       "city": "Tokyo, Japan",
       "image_url": "https://cms-image-bucket-production-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com/images/2/6/8/5/1705862-7-eng-GB/20170106_Ippudo.jpg",
-      "rating": 4.7,
+      "rating": 5,
       "address": "1 Chome-3-12 Higashiikebukuro, Toshima City, Tokyo 170-0013, Japan"
     },
 {
 "name": "Sushi Dai",
-"type": "Sushi",
 "city": "Tokyo, Japan",
 "image_url": "https://www.thewholeworldisaplayground.com/wp-content/uploads/2016/07/Sushi-Dai-Tsukiji-Fish-Market-Tokyo-52.webp",
-"rating": 4.8,
+"rating": 1,
 "address": "5-2-1 Tsukiji, Chuo City, Tokyo 104-0045, Japan"
 },
 {
 "name": "Ramen Kagari",
-"type": "Ramen",
 "city": "Tokyo, Japan",
 "image_url": "https://d28dpoj42hxr8c.cloudfront.net/files/user/201511161142_3.png?v=1447641779",
-"rating": 4.6,
+"rating": 4,
 "address": "4-4-1 Ginza, Chuo City, Tokyo 104-0061, Japan"
 },
 {
 "name": "Sakura Tei",
-"type": "Okonomiyaki",
 "city": "Tokyo, Japan",
 "image_url": "https://img.poibank.com/6emahPHftvL422R_uWShLBKDO18=/W3siZm9ybWF0Ijoid2VicCJ9LHsia2V5Ijoiam91cm5hbHMvNTc5ODEvODhlZjJjZTQtMThjYS00NWZjLWI5OWMtZDE2ZWNiNzQ5OTdjIn0seyJyZXNpemUiOnsid2lkdGgiOiI4MDAifX1d",
-"rating": 4.4,
+"rating": 3,
 "address": "3 Chome-20-1 Jingumae, Shibuya City, Tokyo 150-0001, Japan"
 },
 {
       "name": "Osteria Alle Testiere",
-      "type": "Italian Seafood",
       "city": "Venice, Italy",
       "image_url": "https://cdn.tasteatlas.com/images/restaurants/8598e6f11005460bb39e096dada7587e.jpg?w=600",
-      "rating": 4.8,
+      "rating": 4,
       "address": "Calle del Mondo Novo, 5801, 30122 Venice, Italy"
     },
     {
       "name": "Trattoria Da Fiore",
-      "type": "Venetian Cuisine",
       "city": "Venice, Italy",
       "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/f5/72/23/caption.jpg",
-      "rating": 4.6,
+      "rating": 4,
       "address": "Calle delle Botteghe, 3461, 30124 Venice, Italy"
     },
 {
 "name": "Al Covo",
-"type": "Venetian Cuisine",
 "city": "Venice, Italy",
 "image_url": "https://c8.alamy.com/comp/TRJN70/restorante-al-covo-busy-restaurant-in-the-heart-of-venice-italy-TRJN70.jpg",
-"rating": 4.7,
+"rating": 3,
 "address": "Calle de la Pescaria, 3968, 30122 Venice, Italy"
 },
 {
 "name": "Antiche Carampane",
-"type": "Venetian Seafood",
 "city": "Venice, Italy",
 "image_url": "https://media.timeout.com/images/105162911/image.jpg",
-"rating": 4.5,
+"rating": 5,
 "address": "Calle de la Carampane, 1911, 30125 Venice, Italy"
 },
 {
 "name": "La Zucca",
-"type": "Vegetarian",
 "city": "Venice, Italy",
 "image_url": "https://cdn.tasteatlas.com/images/restaurants/1e6fc0d488ed47c4801e89bd0102645e.jpg?w=600",
-"rating": 4.4,
+"rating": 4,
 "address": "Santa Croce, 1762, 30135 Venice, Italy"
 },
 {
       "name": "At.mosphere",
-      "type": "International",
       "city": "Dubai, UAE",
       "image_url": "https://offerengine.theentertainerme.com/at.mosphere-x23869043/merchant_profile_%22hero%22_image_slide.1_%28retina%29.jpg",
-      "rating": 4.7,
+      "rating": 5,
       "address": "Burj Khalifa, 122nd Floor, Downtown Dubai, Sheikh Mohammed bin Rashid Blvd, Dubai, United Arab Emirates"
     },
     {
       "name": "Pierchic",
-      "type": "Seafood",
       "city": "Dubai, UAE",
       "image_url": "https://b.zmtcdn.com/data/pictures/9/201649/005347ac81a745bc620db4d540fb49b9.jpg",
-      "rating": 4.6,
+      "rating": 5,
       "address": "Al Qasr at Madinat Jumeirah, Umm Suqeim, Dubai, United Arab Emirates"
     },
 {
 "name": "Zuma Dubai",
-"type": "Japanese",
 "city": "Dubai, UAE",
 "image_url": "https://www.caterermiddleeast.com/2021/05/eytt6hl8-09-02-18-ZUMA_Brunch-TOD_6_9588657.JPG",
-"rating": 4.5,
+"rating": 4,
 "address": "Gate Village 06, DIFC, Dubai, United Arab Emirates"
 },
 {
 "name": "Nusr-Et Steakhouse",
-"type": "Steakhouse",
 "city": "Dubai, UAE",
 "image_url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-107,3884-2220,0000-2220,0000/publish/content/dam/fourseasons/images/web/DJB/DJB_1565_original.jpg",
-"rating": 4.4,
+"rating": 4,
 "address": "Four Seasons Resort Dubai at Jumeirah Beach, Jumeirah Beach Road, Jumeirah 2, Dubai, United Arab Emirates"
 },
 {
 "name": "Pai Thai",
-"type": "Thai",
 "city": "Dubai, UAE",
 "image_url": "https://www.visitdubai.com/-/media/gathercontent/poi/p/pai-thai/fallback-image/pai-thai-01.jpg",
-"rating": 4.3,
+"rating": 3,
 "address": "Al Qasr, Madinat Jumeirah, Jumeirah Road, Umm Suqeim, Dubai, United Arab Emirates"
 },
 {
       "name": "Le Jardin",
-      "type": "Moroccan",
       "city": "Marrakech, Morocco",
       "image_url": "https://www.thebohoguide.com/wp-content/uploads/job-manager-uploads/main_image/2016/09/le-jardin.jpg",
-      "rating": 4.7,
+      "rating": 4,
       "address": "32 Souk El Jeld Sidi Abdelaziz, Marrakech 40000, Morocco"
     },
     {
       "name": "Nomad",
-      "type": "International",
       "city": "Marrakech, Morocco",
       "image_url": "https://www.marrakech-riad.co.uk/wp-content/uploads/2015/07/nomad.jpg",
-      "rating": 4.6,
+      "rating": 2,
       "address": "1 Derb Aarjane, Medina, Marrakech 40000, Morocco"
     },
 {
 "name": "Le Foundouk",
-"type": "Moroccan",
 "city": "Marrakech, Morocco",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/9e/88/ad/terrasse.jpg",
-"rating": 4.8,
+"rating": 4,
 "address": "55 Souk Hal Fassi, Marrakech 40000, Morocco"
 },
 {
 "name": "La Mamounia",
-"type": "Moroccan",
 "city": "Marrakech, Morocco",
 "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0c/ee/60/esplanade-majorelle.jpg?w=700&h=-1&s=1",
-"rating": 4.9,
+"rating": 3,
 "address": "Avenue Bab Jdid, Marrakech 40040, Morocco"
 },
 {
 "name": "Comptoir Darna",
-"type": "Moroccan",
 "city": "Marrakech, Morocco",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/16/9e/b8/7b/salle-rdc.jpg",
-"rating": 4.7,
+"rating": 5,
 "address": "Avenue Echouhada, Hivernage, Marrakech 40000, Morocco"
 },
 {
       "name": "Duck & Waffle",
-      "type": "Modern European",
       "city": "London, UK",
       "image_url": "https://cdn.londonandpartners.com/asset/ab609f160568c434beb2b379637a9d39.jpg",
-      "rating": 4.8,
+      "rating": 3,
       "address": "110 Bishopsgate, London EC2N 4AY, United Kingdom"
     },
     {
       "name": "Sketch",
-      "type": "International",
       "city": "London, UK",
       "image_url": "https://www.venuereport.com/media/cache/resolve/venue_carousel/uploads/2015/05/sketch+london+venue.jpg",
-      "rating": 4.7,
+      "rating": 3,
       "address": "9 Conduit St, Mayfair, London W1S 2XG, United Kingdom"
     },
 {
 "name": "The Ledbury",
-"type": "Modern European",
 "city": "London, UK",
 "image_url": "https://media.houseandgarden.co.uk/photos/62616da6a930117841d84bc9/3:2/w_5472,h_3648,c_limit/_The_Ledbury_These_White_Walls_Nacho_Rivera_Photographer_London-3.jpg",
-"rating": 4.9,
+"rating": 5,
 "address": "127 Ledbury Rd, Notting Hill, London W11 2AQ, United Kingdom"
 },
 {
 "name": "Dishoom",
-"type": "Indian",
 "city": "London, UK",
 "image_url": "https://static.dezeen.com/uploads/2015/02/Dishoom-restaurant-Kings-Cross-London_dezeen_ss_9.jpg",
-"rating": 4.6,
+"rating": 4,
 "address": "12 Upper St Martin's Ln, Covent Garden, London WC2H 9FB, United Kingdom"
 },
 {
 "name": "The Wolseley",
-"type": "European",
 "city": "London, UK",
 "image_url": "https://static.arocdn.com/Sites/50/flemings_mayfair/uploads/images/attractionsimages60/attractionspanel43/The_Wolesely.jpg",
-"rating": 4.5,
+"rating": 5,
 "address": "160 Piccadilly, St. James's, London W1J 9EB, United Kingdom"
 },
 {
       "name": "Restaurant De Kas",
-      "type": "Dutch",
       "city": "Amsterdam, Netherlands",
       "image_url": "https://www.yourlittleblackbook.me/wp-content/uploads/2021/05/restaurant-de-kas-amsterdam-interieur.jpg",
-      "rating": 4.8,
+      "rating": 2,
       "address": "Kamerlingh Onneslaan 3, 1097 DE Amsterdam, Netherlands"
     },
     {
       "name": "Breda Restaurant",
-      "type": "Modern European",
       "city": "Amsterdam, Netherlands",
       "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/1b/1b/8f/6c/con-fuego-interieur.jpg",
-      "rating": 4.7,
+      "rating": 5,
       "address": "Singel 210, 1016 AB Amsterdam, Netherlands"
     },
 {
 "name": "Restaurant Rijks",
-"type": "Dutch",
 "city": "Amsterdam, Netherlands",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/0f/a2/8e/76/rijksr-restaurant.jpg",
-"rating": 4.9,
+"rating": 4,
 "address": "Museumstraat 2, 1071 XX Amsterdam, Netherlands"
 },
 {
 "name": "Ciel Bleu Restaurant",
-"type": "French",
 "city": "Amsterdam, Netherlands",
 "image_url": "https://www.theworlds50best.com/discovery/filestore/jpg/CielBlue-Amsterdam-Netherlands-01.jpg",
-"rating": 4.8,
+"rating": 2,
 "address": "Ferdinand Bolstraat 333, 1072 LH Amsterdam, Netherlands"
 },
 {
 "name": "Bussia Amsterdam",
-"type": "Italian",
 "city": "Amsterdam, Netherlands",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/0b/90/b3/64/bussia.jpg",
-"rating": 4.7,
+"rating": 4,
 "address": "Prinsengracht 324, 1016 JE Amsterdam, Netherlands"
 },
 {
       "name": "La Degustation Bohême Bourgeoise",
-      "type": "Czech",
       "city": "Prague, Czech Republic",
       "image_url": "https://confessionsbyafoodie.files.wordpress.com/2016/03/la-degustation-exterior1.jpg?w=1000",
-      "rating": 4.8,
+      "rating": 4,
       "address": "Haštalská 753/18, 110 00 Staré Město, Czechia"
     },
     {
       "name": "CottoCrudo",
-      "type": "Italian",
       "city": "Prague, Czech Republic",
        "image_url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics__/fb4c6ce3604a49e8a3fa2045edbcb7eb?width=1000",
-      "rating": 4.7,
+      "rating": 4,
       "address": "V Celnici 1031/8, 110 00 Nové Město, Czechia"
     },
 {
 "name": "U Modré Kachničky",
-"type": "Czech",
 "city": "Prague, Czech Republic",
 "image_url": "https://mancub-agp-production.s3.eu-central-1.amazonaws.com/media/cache/71/66/716603d8c57c03533f45e6f8675d2615/U-modre-kachnicky-02.jpg",
-"rating": 4.6,
+"rating": 1,
 "address": "Michalská 16, 110 00 Staré Město, Czechia"
 },
 {
 "name": "Mlýnec Restaurant",
-"type": "Czech",
 "city": "Prague, Czech Republic",
 "image_url": "https://mancub-agp-production.s3.eu-central-1.amazonaws.com/media/cache/50/de/50de1e86ba47c58d4fa38db4a6ed025f/2_Mlynec_Prague.jpg",
-"rating": 4.5,
+"rating": 3,
 "address": "Novotného lávka 199/9, 110 00 Staré Město, Czechia"
 },
 {
 "name": "Aromi",
-"type": "Italian",
 "city": "Prague, Czech Republic",
 "image_url": "https://aromi.lacollezione.cz/files/k2-6401.jpg",
-"rating": 4.4,
+"rating": 5,
 "address": "Mánesova 78/20, 120 00 Vinohrady, Czechia"
 },
 {
       "name": "Odette",
-      "type": "French",
       "city":  "Singapore",
       "image_url": "https://static.dezeen.com/uploads/2016/02/odette-by-universal-design-studio_dezeen_936_11.jpg",
-      "rating": 4.9,
+      "rating": 3,
       "address": "1 St Andrew's Rd, #01-04 National Gallery Singapore, Singapore 178957"
     },
     {
       "name": "Labyrinth",
-      "type": "Modern Singaporean",
       "city":  "Singapore",
       "image_url": "https://media.thepeakmagazine.com.sg/public/2018/06/Labyrinth_Restaurant_Singapore_LI-7.jpg?compress=true&quality=80&w=400&dpr=2.6",
-      "rating": 4.7,
+      "rating": 2,
       "address": "8 Raffles Ave, #02-23 Esplanade Mall, Singapore 039802"
     },
 {
 "name": "Joël Robuchon Restaurant",
-"type": "French",
 "city": "Singapore",
 "image_url": "https://www.joel-robuchon.com/_dev/img/restaurants/singapour-restaurant/2.jpg",
-"rating": 4.8,
+"rating": 5,
 "address": "8 Sentosa Gateway, Hotel Michael, Resorts World Sentosa, Singapore 098269"
 },
 {
 "name": "Burnt Ends",
-"type": "Barbecue",
 "city": "Singapore",
 "image_url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2021/10/01/58fc46a2b0de4a5b941bc0933b9084d5_03+BE+Kitchen.jpg",
-"rating": 4.6,
+"rating": 4,
 "address": "20 Teck Lim Rd, Singapore 088391"
 },
 {
 "name": "Din Tai Fung",
-"type": "Taiwanese",
 "city": "Singapore",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/02/48/c1/bd/din-tai-fung.jpg",
-"rating": 4.5,
+"rating": 4,
 "address": "290 Orchard Rd, #B1-03 Paragon Shopping Centre, Singapore 238859"
 },
   {
     "name": "Warung Made",
-    "type": "Balinese",
     "city": "Bali, Indonesia",
     "image_url": "https://www.triple8tour.com/uploads/source/wmade2.jpg",
-    "rating": 4.2,
+    "rating": 3,
     "address": "Jl. Raya Seminyak No. 6, Seminyak, Kuta, Kabupaten Badung, Bali 80361, Indonesia"
   },
   {
     "name": "Locavore",
-    "type": "Modern Indonesian",
     "city": "Bali, Indonesia",
     "image_url": "https://outoftownblog.com/wp-content/uploads/2023/08/Locavore-in-Estancia.jpg",
-    "rating": 4.7,
+    "rating": 2,
     "address": "Jl. Dewisita No.10, Ubud, Gianyar, Bali 80571, Indonesia"
   },
 {
 "name": "Warung Babi Guling Ibu Oka",
-"type": "Balinese",
 "city": "Bali, Indonesia",
 "image_url": "https://farm2.static.flickr.com/1049/4727503532_3fdd9c756a.jpg",
-"rating": 4.4,
+"rating": 4,
 "address": "Jl. Suweta No.1, Ubud, Gianyar, Bali 80571, Indonesia"
 },
 {
 "name": "Sarong Restaurant",
-"type": "Asian Fusion",
 "city": "Bali, Indonesia",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/12/e7/17/33/sarong-restaurant-exterior.jpg",
-"rating": 4.5,
+"rating": 1,
 "address": "Jl. Petitenget No.19X, Kerobokan Kelod, Kuta Utara, Kabupaten Badung, Bali 80361, Indonesia"
 },
 {
 "name": "Métis Restaurant and Gallery",
-"type": "French Mediterranean",
 "city": "Bali, Indonesia",
 "image_url": "https://www.theluxurybali.com/wp-content/uploads/2015/09/fLJmKSnM98MwIiBDIUztduhGAoSFDu6ePD_oIEjOV0Y-848x530.jpeg",
-"rating": 4.6,
+"rating": 5,
 "address": "Jl. Petitenget No.6, Kerobokan Kelod, Kuta Utara, Kabupaten Badung, Bali 80361, Indonesia"
 },
 {
     "name": "Ta Karamanlidika Tou Fani",
-    "type": "Greek",
     "city": "Athens, Greece",
     "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/18/21/ff/a6/getlstd-property-photo.jpg",
-    "rating": 4.4,
+    "rating": 4,
     "address": "Sokratous 1, Athens 105 52, Greece"
   },
   {
     "name": "To Kafeneio",
-    "type": "Traditional Greek",
     "city": "Athens, Greece",
     "image_url": "https://media-cdn.tripadvisor.com/media/photo-p/07/98/94/1c/i-arrived-at-first-opening.jpg",
-    "rating": 4.1,
+    "rating": 5,
     "address": "Emm. Benaki 28, Athens 106 78, Greece"
   },
 {
 "name": "O Thanasis",
-"type": "Greek",
 "city": "Athens, Greece",
 "image_url": "https://santorinidave.com/wp-content/uploads/2021/11/athens-restaurant-thanasis-outdoor-2.jpeg",
-"rating": 4.3,
+"rating": 3,
 "address": "Mitropoleos 69, Athens 105 55, Greece"
 },
 {
 "name": "Dionysos Zonars",
-"type": "Mediterranean",
 "city": "Athens, Greece",
 "image_url": "https://dionysoszonars.gr/wp-content/uploads/2019/09/home_header_bg.jpg",
-"rating": 4.5,
+"rating": 2,
 "address": "Rovertou Galli 43, Athens 117 42, Greece"
 },
 {
 "name": "To Kanoni",
-"type": "Seafood",
 "city": "Athens, Greece",
 "image_url": "https://i0.wp.com/mythicalpeloponnese.gr/wp-content/uploads/2022/05/628608c3c6e3e-scaled.jpg?fit=2560%2C1901&ssl=1",
-"rating": 4.2,
+"rating": 4,
 "address": "Ioannou Paparrigopoulou 18, Athens 106 75, Greece"
 },
 {
     "name": "Abou Tarek",
-    "type": "Egyptian",
     "city": "Cairo, Egypt",
     "image_url": "https://s3-eu-west-1.amazonaws.com/elmenusv5-stg/Normal/254f0f3c-f348-4e91-88e4-6c69f2c8ccb7.jpg",
-    "rating": 4.2,
+    "rating": 5,
     "address": "16 Adly St., Downtown Cairo, Egypt"
   },
   {
     "name": "Koshary El Tahrir",
-    "type": "Egyptian Street Food",
     "city": "Cairo, Egypt",
     "image_url": "https://fastly.4sqi.net/img/general/600x600/29025510_K-_spTxOBv51ZrRMq5nt_PBR33M4vs4ABjZGIl4-IcY.jpg",
-    "rating": 4.0,
+    "rating": 4,
     "address": "8 Adly St., Downtown Cairo, Egypt"
   },
 {
 "name": "Felfela",
-"type": "Egyptian",
 "city": "Cairo, Egypt",
 "image_url": "https://c8.alamy.com/comp/B5AR0Y/people-dining-at-felfela-restaurant-which-offers-authentic-egyptian-B5AR0Y.jpg",
-"rating": 4.4,
+"rating": 4,
 "address": "15 Hoda Shaarawi St., Downtown Cairo, Egypt"
 },
 {
 "name": "Zooba",
-"type": "Egyptian Street Food",
 "city": "Cairo, Egypt",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/17/1c/43/74/photo0jpg.jpg",
-"rating": 4.6,
+"rating": 3,
 "address": "26th of July St., Zamalek, Cairo, Egypt"
 },
 {
 "name": "Kebdet El Prince",
-"type": "Egyptian Grill",
 "city": "Cairo, Egypt",
 "image_url": "https://mrandmrsegypt.com/wp-content/uploads/2022/11/Kebdet-El-Prince-1024x769.jpg",
-"rating": 4.1,
+"rating": 2,
 "address": "1 El Gabalaya St., Zamalek, Cairo, Egypt"
 },
 {
     "name": "Pelikan",
-    "type": "Swedish",
     "city": "Stockholm, Sweden",
     "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/16/a2/19/9b/pic-4.jpg",
-    "rating": 4.3,
+    "rating": 5,
     "address": "Blekingegatan 40, 116 62 Stockholm, Sweden"
   },
   {
     "name": "Tradition",
-    "type": "Modern Nordic",
     "city": "Stockholm, Sweden",
     "image_url": "https://cloudfront-us-east-1.images.arcpublishing.com/sltrib/2Q26YEIXHNHVFAS4DX3PEWGTIE.jpg",
-    "rating": 4.5,
+    "rating": 3,
     "address": "Västerlånggatan 79, 111 29 Stockholm, Sweden"
   },
 {
 "name": "Oaxen Slip",
-"type": "Swedish",
 "city": "Stockholm, Sweden",
 "image_url": "https://www.abouttimemagazine.co.uk/wp-content/uploads/2016/04/MG_4614.jpg",
-"rating": 4.4,
+"rating": 4,
 "address": "Beckholmsbron 26, 115 21 Stockholm, Sweden"
 },
 {
 "name": "Frantzén",
-"type": "Modern Nordic",
 "city": "Stockholm, Sweden",
 "image_url": "https://www.visitstockholm.com/media/images/763e436bcc1944148915eb792e64600a.width-1280.jpg",
-"rating": 4.8,
+"rating": 3,
 "address": "Klara Norra Kyrkogata 26, 111 22 Stockholm, Sweden"
 },
 {
 "name": "Smorgastarteriet",
-"type": "Swedish",
 "city": "Stockholm, Sweden",
 "image_url": "https://live.staticflickr.com/65535/51496294439_3f48caff8c_z.jpg",
-"rating": 4.6,
+"rating": 2,
 "address": "Sturegatan 19, 114 36 Stockholm, Sweden"
 },
 {
     "name": "Bun Cha Huong Lien",
-    "type": "Vietnamese",
     "city": "Hanoi, Vietnam",
     "image_url": "https://vnn-imgs-f.vgcloud.vn/2019/02/26/11/quan-bun-cha-obama-thay-doi-the-nao-sau-3-nam-don-cuu-tong-thong-my.jpg",
-    "rating": 4.4,
+    "rating": 4,
     "address": "24 Lê Ngọc Hân, P. Phạm Đình Hổ, Q. Hai Bà Trưng, Hà Nội, Vietnam"
   },
   {
     "name": "Pho 10",
-    "type": "Pho",
     "city": "Hanoi, Vietnam",
     "image_url": "https://noiphoquanghuy.vn/wp-content/uploads/2022/07/nguon-goc-pho-ly-quoc-su.jpg",
-    "rating": 4.3,
+    "rating": 3,
     "address": "10 Lý Quốc Sư, Hàng Trống, Hoàn Kiếm, Hà Nội, Vietnam"
   },
 {
 "name": "Banh Mi 25",
-"type": "Vietnamese",
 "city": "Hanoi, Vietnam",
 "image_url": "https://c8.alamy.com/comp/W26NYN/banh-mi-25-hanoi-vietnam-W26NYN.jpg",
-"rating": 4.5,
+"rating": 1,
 "address": "25 Hàng Cá, Hoàn Kiếm, Hà Nội, Vietnam"
 },
 {
 "name": "Quán Ăn Ngon",
-"type": "Vietnamese",
 "city": "Hanoi, Vietnam",
 "image_url": "https://cdn.pastaxi-manager.onepas.vn/content/uploads/articles/quananngonhoangdaothuy/nha-hang-quan-an-ngon-hoang-dao-thuy-15-a.jpg",
-"rating": 4.2,
+"rating": 4,
 "address": "18 Phan Bội Châu, Hàng Đào, Hoàn Kiếm, Hà Nội, Vietnam"
 },
 {
 "name": "La Badiane",
-"type": "French",
 "city": "Hanoi, Vietnam",
 "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/0b/d1/7e/bb/la-badiane-restaurant.jpg",
-"rating": 4.6,
+"rating": 2,
 "address": "10 Nam Ngư, Cửa Nam, Hoàn Kiếm, Hà Nội, Vietnam"
 }     
   ]

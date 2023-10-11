@@ -1,8 +1,10 @@
 import { Card, Button, Modal } from 'react-bootstrap';
 import { useState } from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
 
 function CardComp (props){
   const [show, setShow] = useState(false);
+  let {user} = useAuth0()
   function handleshow(){
       setShow(!show)
   }
@@ -22,12 +24,12 @@ function CardComp (props){
   function saveToLocalStorage(){
     if(localStorage.getItem("Favorites")){
     let arr = JSON.parse(localStorage.getItem("Favorites"))
-    arr.push(props)
+    arr.push({...props, email:user.email})
     let stringData = JSON.stringify(arr)
     localStorage.setItem("Favorites",stringData)}
     else{
       let arr = []
-      arr.push(props)
+      arr.push({...props, email:user.email})
       let stringData = JSON.stringify(arr)
       localStorage.setItem("Favorites",stringData)} 
 

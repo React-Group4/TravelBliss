@@ -1,16 +1,9 @@
-#filterForm {
-    margin-top:10%;
-    margin-left:25%;
-    width: 740px;
-
-}
 h4 {
-    margin-top: 2%;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: rgb(214, 218, 221);
-    text-align: center;
+  color: #000000; 
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  margin-bottom: 20px; 
+  text-align: center;
 }
 
 .section-heading::before {
@@ -18,9 +11,10 @@ h4 {
     display: block;
     height: 8px;
     width: 100%;
-    background-color:rgb(214, 218, 221); 
+    background-color:#6f9bce; 
     margin-top: 2%; 
     margin-bottom: 10px;
+    
   }
 
   .section-heading::after {
@@ -28,7 +22,7 @@ h4 {
     display: block;
     height: 8px;
     width: 100%;
-    background-color:rgb(214, 218, 221);
+    background-color:#6f9bce;
     margin-top: 10px; 
     margin-bottom: 10px;
   }

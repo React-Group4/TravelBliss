@@ -6,6 +6,7 @@ import {useEffect, useState } from 'react';
 import CardComp from './card';
 import './card.css';
 import './destinations.css';
+import './selectStyles.css';
 
 function Destinations(){
     const [restaurants, setRestaurants] = useState([]);
@@ -33,10 +34,10 @@ function Destinations(){
     return (
 <>
 <Form.Select id='filterForm' onChange={handelChange} value={selectedCity}>
-      <option value="Select a city">Select a city</option>
+      <option value="Select a city"><b>Select a city</b></option>
       {Cities.map((city) => (
           <option value={city.name}>
-            {city.name}
+            <b>{city.name}</b>
           </option>
         ))}
     </Form.Select>
@@ -53,6 +54,8 @@ function Destinations(){
           showAddress={true}
           showRating={true}
           showFavorites={true}
+          showGoToDestinationButton={false}  
+            key={restaurant.name}  
           />
         ))}
     </div>
@@ -69,6 +72,8 @@ function Destinations(){
            showAddress={true}
            showRating={true}
            showFavorites={true}
+           showGoToDestinationButton={false}  
+            key={hotel.name}
           />
         ))}
 

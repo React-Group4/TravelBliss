@@ -7,28 +7,26 @@ import Destinations from './destinations';
 import Favorites from './favorites';
 import About_us from './about-us';
 import Main from './main';
-// import AnimatedBackground from './AnimatedBackground';
+
+
 
 
 function App() {
-
   return (
-   <>
-      {/* <AnimatedBackground /> */}
-      <Header />
-      <Router>
-      <Routes>
-        <Route path="/" Component={Main} ></Route>
-        <Route path="/destination" Component={Destinations} ></Route>
-        <Route path="/favorites" Component={Favorites} ></Route>
-        <Route path="/about-us" Component={About_us } ></Route>
-        </Routes>
-    </Router>
-
-      
-      
-      </>
-      
+    <>
+    <div className="background-image">
+        <Header />
+        
+        <Router>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/destination" element={<Destinations />} />
+            <Route path="/favorites" element={<Favorites />} />
+            <Route path="/about-us" element={<About_us />} />
+          </Routes>
+        </Router>
+        </div>
+    </>
   );
 }
 

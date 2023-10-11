@@ -29,7 +29,7 @@ function Favorites(){
         }
 
     
-    useEffect(function(){filterByEmail()},[])
+     useEffect(function(){filterByEmail()},[])
 
 
 
@@ -50,7 +50,7 @@ function Favorites(){
                 index={index}
                 RemoveFromFavorites={() => RemoveFromFavorites(index)}
                 showRemove={true}
-                email = {user.email}
+               // email = {user.email}
                 />
               )})}
 

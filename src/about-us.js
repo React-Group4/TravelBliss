@@ -24,9 +24,6 @@ function About_us(){
                     </div> 
 
 
-
-
-
                     <div className="col-sm-6 col-md-4">
                         <div className="team-item">
 
@@ -67,12 +64,6 @@ function About_us(){
 
                         </div>
                     </div>
-
-
-
-
-
-
 
 
 
@@ -121,11 +112,6 @@ function About_us(){
 
 
 
-
-
-
-
-
                     <div className="col-sm-6 col-md-4">
                         <div className="team-item">
 
@@ -169,11 +155,6 @@ function About_us(){
 
 
 
-
-
-
-
-
                     <div className="col-sm-6 col-md-4">
                         <div className="team-item">
 
@@ -214,12 +195,6 @@ function About_us(){
 
                         </div>
                     </div>
-
-
-
-
-
-
 
 
                 </div>	

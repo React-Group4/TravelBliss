@@ -7,6 +7,7 @@ import Destinations from './destinations';
 import Favorites from './favorites';
 import About_us from './about-us';
 import Main from './main';
+import Footer from './footer';
 
 
 
@@ -17,7 +18,6 @@ function App() {
     <>
     <div className="background-image">
         <Header />
-        
         <Router>
           <Routes>
             <Route path="/" element={<Main />} />
@@ -28,7 +28,7 @@ function App() {
         </Router>
         <br />
         <br />
-        <footer />
+        <Footer/>
         </div>
     </>
   );

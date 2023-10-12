@@ -11,6 +11,7 @@ import Main from './main';
 
 
 
+
 function App() {
   return (
     <>
@@ -25,6 +26,9 @@ function App() {
             <Route path="/about-us" element={<About_us />} />
           </Routes>
         </Router>
+        <br />
+        <br />
+        <footer />
         </div>
     </>
   );

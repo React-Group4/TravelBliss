@@ -49,9 +49,11 @@ function Destinations(){
           title={restaurant.name} 
           city ={restaurant.city}
           address={restaurant.address}
+          reviews={restaurant.reviews}
           rating= {restaurant.rating}
           showDetails={false}
           showAddress={true}
+          showreviews={true}
           showRating={true}
           showFavorites={true}
           showGoToDestinationButton={false}  
@@ -67,9 +69,11 @@ function Destinations(){
            title={hotel.name} 
            city ={hotel.city} 
            address={hotel.address}
+           reviews={hotel.reviews}
            rating= {hotel.rating}
            showDetails={false}
            showAddress={true}
+           showreviews={true}
            showRating={true}
            showFavorites={true}
            showGoToDestinationButton={false}  

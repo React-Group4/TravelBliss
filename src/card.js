@@ -45,7 +45,7 @@ function CardComp (props){
 
 return(
   <>
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem', backgroundColor:'#e0e0e0' }}>
     <Card.Img
       variant="top"
       src={props.image} 
@@ -54,31 +54,32 @@ return(
     <Card.Body>
     <Card.Title ><b><i>{props.title}</i></b></Card.Title>
     <Card.Text><p>{props.city}</p></Card.Text>
+    {props.reviews && (<Card.Text><p><b>Reviews: {props.reviews}</b></p></Card.Text>) }
    {props.showRating &&( <Card.Text> {generateStarRating(props.rating)}</Card.Text> )   }
-   {props.showDetails? <Button variant="primary" onClick={handleshow} style={{ backgroundColor: '#008CBA', color: 'White' }}>Show Details</Button>
+   {props.showDetails? <Button variant="primary" onClick={handleshow} style={{ backgroundColor: '#005b96', color: 'White' }}>Show Details</Button>
    : <Button variant="primary" onClick={handleshow} style={{display:"none"}}>Show Details</Button>
    }
-   {props.showAddress? <Button variant="primary" onClick={handleshow} style={{ backgroundColor: '#008CBA', color: 'White' }} >Show Address</Button>
+   {props.showAddress? <Button variant="primary" onClick={handleshow} style={{ backgroundColor: '#005b96', color: 'White' }} >Show Address</Button>
    : <Button variant="primary" onClick={handleshow} style={{display:"none"}}>Show Address</Button>
    }
-   {props.showFavorites? <Button variant="primary" onClick={saveToLocalStorage} style={{ backgroundColor: '#008CBA', color: 'White', marginTop:'1%' }}>Add To Favorites</Button>
+   {props.showFavorites? <Button variant="primary" onClick={saveToLocalStorage} style={{ backgroundColor: '#e5e5e5',border: '#e4edf2', color: '#e4edf2',marginLeft:'100px' }}>❤️</Button>
    : <Button variant="primary" onClick={saveToLocalStorage} style={{display:"none"}}>Add To Favorites</Button>}
-   {props.showRemove? <Button variant="primary" onClick={props.RemoveFromFavorites} style={{ backgroundColor: '#c04a4a', color: 'white', border: '#3498db', borderRadius: '100%' }}><b>Remove</b></Button>
+   {props.showRemove? <Button variant="primary" onClick={props.RemoveFromFavorites} style={{ backgroundColor: '#990000', color: 'white', border: '#3498db', borderRadius: '100%' }}><b>Remove</b></Button>
     : <Button variant="primary" onClick={props.RemoveFromFavorites} style={{display:"none" }}>Remove</Button> }
     </Card.Body>
     </Card>
         <Modal show={show} onHide={handleshow}>
-        <Modal.Header closeButton>
-        <Modal.Title><h3><b>{props.title}</b></h3></Modal.Title>
+        <Modal.Header closeButton  style={{backgroundColor:'#005b96', color: 'White'}}>
+        <Modal.Title ><h3><b>{props.title}</b></h3></Modal.Title>
       </Modal.Header>
-        <Modal.Body>{props.description} <br></br> <b><i>{props.address}</i></b> </Modal.Body>
-      <Modal.Footer>
+        <Modal.Body style={{backgroundColor:'#F8F8F8'}}>{props.description}<b><i>{props.address}</i></b> </Modal.Body>
+      <Modal.Footer  style={{backgroundColor:'#F8F8F8'}}>
       {props.showGoToDestinationButton && (
-          <Button variant='primary' onClick={navigateToDestination} style={{ backgroundColor: '#008CBA', color: 'White' }}>
+          <Button variant='primary' onClick={navigateToDestination} style={{ backgroundColor: '#005b96', color: 'White' }}>
           Go To Destinations
         </Button>
       )}
-        <Button variant="secondary" onClick={handleshow} style={{ backgroundColor: '#c04a4a', color: 'white', border: '#3498db' ,borderRadius: '100%' }}>
+        <Button variant="secondary" onClick={handleshow} style={{ backgroundColor: '#990000', color: 'white', border: '#3498db' ,borderRadius: '100%' }}>
             <b>Close</b>
           </Button>
       </Modal.Footer>

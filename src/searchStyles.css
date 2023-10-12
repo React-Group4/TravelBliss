@@ -1,13 +1,13 @@
 #searchForm .form-control {
-    border: 2px solid #047297; 
+    border: 2px solid #005b96; 
     border-radius: 4px; 
     color: #000000; 
   }
   
   #searchForm .btn {
-    background-color: #047297; 
+    background-color: #005b96; 
     color: white; 
-    border: 2px solid #3498db; 
+    border: 2px solid #005b96; 
     border-radius: 7px; 
   }
   

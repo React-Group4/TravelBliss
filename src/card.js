@@ -1,8 +1,14 @@
 import { Card, Button, Modal } from 'react-bootstrap';
 import { useState } from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
+import Destinations from './destinations';
+import { useNavigate } from 'react-router-dom';  
+
 
 function CardComp (props){
   const [show, setShow] = useState(false);
+  let {user} = useAuth0()
+  const navigate = useNavigate();  
   function handleshow(){
       setShow(!show)
   }
@@ -22,16 +28,20 @@ function CardComp (props){
   function saveToLocalStorage(){
     if(localStorage.getItem("Favorites")){
     let arr = JSON.parse(localStorage.getItem("Favorites"))
-    arr.push(props)
+    arr.push({...props, email:user.email})
     let stringData = JSON.stringify(arr)
     localStorage.setItem("Favorites",stringData)}
     else{
       let arr = []
-      arr.push(props)
+      arr.push({...props, email:user.email})
       let stringData = JSON.stringify(arr)
       localStorage.setItem("Favorites",stringData)} 
 
     } 
+    function navigateToDestination() {
+      
+      navigate('/destination');
+    }
 
 return(
   <>
@@ -42,29 +52,34 @@ return(
       style={{ height: '200px', objectFit: 'cover' }} 
     />
     <Card.Body>
-    <Card.Title>{props.title}</Card.Title>
-    <Card.Text>{props.city}</Card.Text>
-   {props.showRating &&( <Card.Text>Rating: {generateStarRating(props.rating)}</Card.Text> )   }
-   {props.showDetails? <Button variant="primary" onClick={handleshow} >Show Details</Button>
+    <Card.Title ><b><i>{props.title}</i></b></Card.Title>
+    <Card.Text><p>{props.city}</p></Card.Text>
+   {props.showRating &&( <Card.Text> {generateStarRating(props.rating)}</Card.Text> )   }
+   {props.showDetails? <Button variant="primary" onClick={handleshow} style={{ backgroundColor: '#008CBA', color: 'White' }}>Show Details</Button>
    : <Button variant="primary" onClick={handleshow} style={{display:"none"}}>Show Details</Button>
    }
-   {props.showAddress? <Button variant="primary" onClick={handleshow} >Show Address</Button>
+   {props.showAddress? <Button variant="primary" onClick={handleshow} style={{ backgroundColor: '#008CBA', color: 'White' }} >Show Address</Button>
    : <Button variant="primary" onClick={handleshow} style={{display:"none"}}>Show Address</Button>
    }
-   {props.showFavorites? <Button variant="primary" onClick={saveToLocalStorage} >Add To Favorites</Button>
+   {props.showFavorites? <Button variant="primary" onClick={saveToLocalStorage} style={{ backgroundColor: '#008CBA', color: 'White', marginTop:'1%' }}>Add To Favorites</Button>
    : <Button variant="primary" onClick={saveToLocalStorage} style={{display:"none"}}>Add To Favorites</Button>}
-   {props.showRemove? <Button variant="primary" onClick={props.RemoveFromFavorites}>Remove</Button>
-    : <Button variant="primary" onClick={props.RemoveFromFavorites} style={{display:"none"}}>Remove</Button> }
+   {props.showRemove? <Button variant="primary" onClick={props.RemoveFromFavorites} style={{ backgroundColor: '#c04a4a', color: 'white', border: '#3498db', borderRadius: '100%' }}><b>Remove</b></Button>
+    : <Button variant="primary" onClick={props.RemoveFromFavorites} style={{display:"none" }}>Remove</Button> }
     </Card.Body>
     </Card>
         <Modal show={show} onHide={handleshow}>
         <Modal.Header closeButton>
         <Modal.Title><h3><b>{props.title}</b></h3></Modal.Title>
       </Modal.Header>
-        <Modal.Body>{props.description} <br></br> {props.address} </Modal.Body>
+        <Modal.Body>{props.description} <br></br> <b><i>{props.address}</i></b> </Modal.Body>
       <Modal.Footer>
-          <Button variant="secondary" onClick={handleshow} style={{backgroundColor:"black"}}>
-            Close
+      {props.showGoToDestinationButton && (
+          <Button variant='primary' onClick={navigateToDestination} style={{ backgroundColor: '#008CBA', color: 'White' }}>
+          Go To Destinations
+        </Button>
+      )}
+        <Button variant="secondary" onClick={handleshow} style={{ backgroundColor: '#c04a4a', color: 'white', border: '#3498db' ,borderRadius: '100%' }}>
+            <b>Close</b>
           </Button>
       </Modal.Footer>
         </Modal>
@@ -74,4 +89,3 @@ return(
 
 }
 export default CardComp;
-

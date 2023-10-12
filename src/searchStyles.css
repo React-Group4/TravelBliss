@@ -1,0 +1,17 @@
+#searchForm .form-control {
+    border: 2px solid #047297; 
+    border-radius: 4px; 
+    color: #000000; 
+  }
+  
+  #searchForm .btn {
+    background-color: #047297; 
+    color: white; 
+    border: 2px solid #3498db; 
+    border-radius: 7px; 
+  }
+  
+  #searchForm .btn:hover {
+    background-color: #3498db; 
+    border: 2px solid #ffffff; 
+  }

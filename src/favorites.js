@@ -1,7 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import CardComp from "./card";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Favorites(){
+
+    let {isAuthenticated, user} = useAuth0()
 
     let favorites = JSON.parse(localStorage.getItem("Favorites"))
 
@@ -13,11 +16,29 @@ function Favorites(){
         setFavoriteState(favoritesCopy)
         let stringData = JSON.stringify(favoritesCopy) 
         localStorage.setItem("Favorites",stringData)} 
+
+
+
+        function filterByEmail(){
+            if(isAuthenticated){
+                let filteredData = FavoriteState.filter(function(item){
+                    console.log(item.email)
+                    return user.email === item.email})
+                setFavoriteState(filteredData)
+            }
+        }
+
+    
+     useEffect(function(){filterByEmail()},[])
+
+
+
+
     
         return(
             <>
     <div id = "cardsFavorites" >
-        {FavoriteState.map(function(restaurant,index){
+        {isAuthenticated && FavoriteState.map(function(restaurant,index){
             return(
                 <CardComp 
                 image={restaurant.image}
@@ -29,6 +50,7 @@ function Favorites(){
                 index={index}
                 RemoveFromFavorites={() => RemoveFromFavorites(index)}
                 showRemove={true}
+               // email = {user.email}
                 />
               )})}
 

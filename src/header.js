@@ -12,7 +12,7 @@ import LogoutButton from './logout';
 
 function Header() {
   let {isAuthenticated , user} = useAuth0()
-  console.log(user)
+  
   return (
   
     <Navbar expand="lg" className="co" >
@@ -23,10 +23,10 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto" >
 
-            <Nav.Link href="/" style={{fontSize:"25px" , color:"black" , color:"white"}} className='st'>Home</Nav.Link>
-            <Nav.Link href="/destination" style={{fontSize:"25px" , color:"black" , color:"white" }} className='st'>Destinations ✈️</Nav.Link>
-            <Nav.Link href="/favorites" style={{fontSize:"25px" , color:"black" , color:"white"}} className='st'>Favorites ❤️</Nav.Link>
-            <Nav.Link href="/about-us" style={{fontSize:"25px" , color:"black" , color:"white"}} className='st'>About Us 📞</Nav.Link>
+            <Nav.Link href="/" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap"}} className='st'>Home 🏚️</Nav.Link>
+            <Nav.Link href="/destination" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap" }} className='st'>Destinations ✈️</Nav.Link>
+            <Nav.Link href="/favorites" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap"}} className='st'>Favorites ❤️</Nav.Link>
+            <Nav.Link href="/about-us" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap"}} className='st'>About Us 📞</Nav.Link>
 
 
 
@@ -36,8 +36,8 @@ function Header() {
         {isAuthenticated ? 
         <>
              <LogoutButton />
-             <img src={user.picture} style={{width:"35px" , height:"35px", margin:"0 10px 0 10px "}} />
-             <h6 style={{color: "white"}}>{user.name}</h6>
+             <img src={user.picture} style={{ width: '35px', height: '35px', marginLeft: '1%', borderRadius:'50%'}} />
+             <h6 style={{ color: "white", fontSize: "14px", whiteSpace: "nowrap", marginLeft: '1%' }}>{user.name}</h6>
         </> 
             : <LoginButton />}
       </Container>

@@ -153,6 +153,9 @@ body, html {
 .background-image > * {
   flex: 0;
 }
+body {
+  touch-action: manipulation;
+}
 
 
 

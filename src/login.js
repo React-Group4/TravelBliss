@@ -13,7 +13,7 @@ const LoginButton = () => {
         cursor: "pointer",          
         fontSize: "16px",           
         fontWeight: "bold",       
-        marginLeft: "38%"        
+        marginLeft: "30%"        
     };
 
     return (

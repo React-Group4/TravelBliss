@@ -13,7 +13,7 @@ const LogoutButton = () => {
         cursor: "pointer",        
         fontSize: "16px",         
         fontWeight: "bold",          
-        marginLeft: "24%"        
+        marginLeft: "18%"        
     };
 
     return (

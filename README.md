@@ -1,4 +1,87 @@
-# Getting Started with Create React App
+# TravelBliss
+We have been building and developing this travel website that highlights different destinations, so users can explore different sites for each country and city, view information related to them, and see all the details.
+
+
+## Features:
+### Travel Destination Project
+The Travel Destination Project is a comprehensive web application designed to help travelers plan their trips effectively and discover exciting destinations worldwide. Whether you're a seasoned globetrotter or a first-time traveler, this platform offers a user-friendly interface and powerful features to enhance your travel experience.
+
+## What It Does:
+The Travel Destination Project provides a one-stop solution for travel enthusiasts, allowing them to:
+- Explore Destinations: Browse a vast collection of destinations with detailed information, including popular attractions, local cuisine, culture, and historical significance.
+- Plan Itineraries: Create personalized travel itineraries by selecting destinations, activities, and accommodations. The intuitiv drag-and-drop interface makes itinerary planning a breeze.
+- Find Accommodations: Discover accommodation options tailored to your preferences, including hotels, hostels,and resturants,etc.
+
+
+## Main Features:
+- Interactive Destination Guides: Rich multimedia content, including images,  and address providing a virtual tour of destinations.
+- Customizable Itinerary Builder: Plan your trip day by day, adding attractions, Hotels and restaurants. Get a visual overview of your entire journey.
+- Accommodation Search: A powerful search engine that filters accommodations based on budget, preferences, and user reviews.
+- Travel Community: Join a vibrant community of travelers, share your experiences, and seek advice from fellow explorers.
+- Travel Safety Tips: Information about travel advisories, local laws, and safety guidelines to ensure a secure travel experience.
+
+## Why Use It:
+- Effortless Trip Planning: Save time and effort by consolidating all your travel planning tasks in one place and show all details about specific place for you. No need to switch between multiple apps or websites.
+- Community Insights: Benefit from the collective wisdom of a community of travelers who have explored similar destinations. Learn from their experiences and avoid common pitfalls.
+- Peace of Mind: Access up-to-date information about the safety and security of your chosen destinations, allowing you to travel with confidence.
+
+The Travel Destination Project (TravelBliss) is your passport to seamless, enriching travel experiences. Start exploring, planning, and embarking on unforgettable journeys with the click of a button. Bon voyage! 🌍✈️
+
+
+## Group Members:
+1. Aya Alkersanah
+2. Noor Almasri
+3. Anwer Albadarneh
+4. Hassan Alfrehat
+
+## Tools Used:
+
+- HTML
+- CSS
+- JavaScript
+- React
+- npm 
+
+
+## Getting Started:
+Clone this repositry to your local device and in the git bash you can write the follwoing:
+ - $ git clone https://github.com/React-Group4/TravelBliss.git
+ - cd TravelBliss
+
+ when its downloaded you must install npm for installation all the packages, like this:
+ - npm install
+
+after that write npm start to run the server like this:
+- npm start
+
+
+
+## References:
+[w3school](https://www.w3schools.com/colors/colors_picker.asp) - w3school website.
+
+[fontawesome](https://fontawesome.com/) -library of font awesome.
+
+[mdbootstrap](https://mdbootstrap.com/) -styles in bootstrap.
+
+packages in npm .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +150,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->

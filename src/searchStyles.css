@@ -5,8 +5,8 @@
   }
 
   #searchForm{
-    margin-top: 9%;
-    margin-left: 23%;
+    margin-top: 8.5%;
+    margin-left: 25%;
     margin-right: 23%;
   }
   
@@ -21,3 +21,12 @@
     background-color: #3498db; 
     border: 2px solid #ffffff; 
   }
+
+  .fixed-search {
+    position: fixed;
+    top: 0;
+    left: 0;   
+    width: 50%;
+    z-index: 999; 
+  }
+  

@@ -20,7 +20,7 @@ function Main(){
 
 return (
     <>
-          <Form className="d-flex" onSubmit={handleSubmit} id= "searchForm">
+      <Form className="d-flex fixed-search" onSubmit={handleSubmit} id="searchForm">
             <Form.Control
               type="search"
               placeholder="Search"

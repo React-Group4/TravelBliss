@@ -2,7 +2,6 @@ import { useState } from "react";
 import CardComp from "./card";
 import './card.css';
 import Cities from './Cities.json';
-import './main.css';
 import { Form } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import './searchStyles.css';

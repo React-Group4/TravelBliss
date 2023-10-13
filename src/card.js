@@ -63,7 +63,7 @@ return(
    : <Button variant="primary" onClick={handleshow} style={{display:"none"}}>Show Address</Button>
    }
    {props.showFavorites? <Button variant="primary" onClick={saveToLocalStorage} style={{ backgroundColor: '#e5e5e5',border: '#e4edf2', color: '#e4edf2',marginLeft:'80px' }}>❤️</Button>
-   : <Button variant="primary" onClick={saveToLocalStorage} style={{display:"none"}}>Add To Favorites</Button>}
+   : <Button variant="primary" onClick={saveToLocalStorage} style={{display:"none"}}>❤️</Button>}
    {props.showRemove? <Button variant="primary" onClick={props.RemoveFromFavorites} style={{ backgroundColor: '#990000', color: 'white', border: '#3498db', borderRadius: '100%' }}><b>Remove</b></Button>
     : <Button variant="primary" onClick={props.RemoveFromFavorites} style={{display:"none" }}>Remove</Button> }
     </Card.Body>

@@ -9,10 +9,6 @@ import About_us from './about-us';
 import Main from './main';
 import Footer from './footer';
 
-
-
-
-
 function App() {
   return (
     <>

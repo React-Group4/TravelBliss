@@ -1,0 +1,11 @@
+.logout-button {
+background-Color: "#b23b3b";
+color: "#fff";              
+padding: "8px 16px";       
+border-Radius: "4px";        
+border: "none";            
+cursor: "pointer";        
+font-Size: "16px";         
+font-Weight: "bold";          
+margin-Left: "27%"; 
+} 

@@ -3,11 +3,11 @@ import { useState } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
 import Destinations from './destinations';
 import { useNavigate } from 'react-router-dom';  
-
+import { useLocation } from 'react-router-dom';
 
 function CardComp (props){
   const [show, setShow] = useState(false);
-  let {user} = useAuth0()
+  let {user,isAuthenticated} = useAuth0()
   const navigate = useNavigate();  
   function handleshow(){
       setShow(!show)
@@ -43,6 +43,17 @@ function CardComp (props){
       navigate('/destination');
     }
 
+    const location = useLocation();
+    const isDestinationsPage = location.pathname === '/destination';
+  
+    const favoriteButton =
+      isAuthenticated && isDestinationsPage ? (
+        <Button onClick={saveToLocalStorage}
+        style={{ color: 'red', backgroundColor: 'transparent', border: 'none' }}>
+          ❤️
+        </Button>
+      ) : null;
+
 return(
   <>
     <Card style={{ width: '18rem', backgroundColor:'#e0e0e0' }}>
@@ -56,16 +67,15 @@ return(
     <Card.Text><p>{props.city}</p></Card.Text>
     {props.reviews && (<Card.Text><p><b>Reviews: {props.reviews}</b></p></Card.Text>) }
    {props.showRating &&( <Card.Text> {generateStarRating(props.rating)}</Card.Text> )   }
-   {props.showDetails? <Button variant="primary" onClick={handleshow} style={{ backgroundColor: '#005b96', color: 'White' }}>Show Details</Button>
+   {props.showDetails? <Button variant="primary" onClick={handleshow}  style={{ backgroundColor: '#005b96', color: 'White' }}>Show Details</Button>
    : <Button variant="primary" onClick={handleshow} style={{display:"none"}}>Show Details</Button>
    }
    {props.showAddress? <Button variant="primary" onClick={handleshow} style={{ backgroundColor: '#005b96', color: 'White' }} >Show Address</Button>
    : <Button variant="primary" onClick={handleshow} style={{display:"none"}}>Show Address</Button>
    }
-   {props.showFavorites? <Button variant="primary" onClick={saveToLocalStorage} style={{ backgroundColor: '#e5e5e5',border: '#e4edf2', color: '#e4edf2',marginLeft:'80px' }}>❤️</Button>
-   : <Button variant="primary" onClick={saveToLocalStorage} style={{display:"none"}}>Add To Favorites</Button>}
-   {props.showRemove? <Button variant="primary" onClick={props.RemoveFromFavorites} style={{ backgroundColor: '#990000', color: 'white', border: '#3498db', borderRadius: '100%' }}><b>Remove</b></Button>
+  {props.showRemove? <Button variant="primary" onClick={props.RemoveFromFavorites} style={{ backgroundColor: '#990000', color: 'white', border: '#3498db', borderRadius: '100%' }}><b>Remove</b></Button>
     : <Button variant="primary" onClick={props.RemoveFromFavorites} style={{display:"none" }}>Remove</Button> }
+  <Button style={{ color: 'red', backgroundColor: 'transparent', border: 'none', marginLeft:'20%' }}>{favoriteButton}</Button>
     </Card.Body>
     </Card>
         <Modal show={show} onHide={handleshow}>

@@ -2,6 +2,14 @@
     display: flex;
     flex-wrap:wrap;
     justify-content:space-between;
+    margin-top:13%;
+    gap: 20px;
+}
+
+.cardsFilter {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
     margin-top:2%;
     gap: 20px;
 }
@@ -15,4 +23,5 @@
     
 
 }
+
 

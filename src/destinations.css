@@ -35,3 +35,7 @@ h4 {
 .section-heading:hover::after {
   width: 40%; 
 }
+
+#restaurants{
+  margin-top: 13%;
+}

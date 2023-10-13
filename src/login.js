@@ -1,8 +1,10 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
+import "./login.css";
 
 const LoginButton = () => {
     const { loginWithRedirect } = useAuth0();
+
 
     const buttonStyles = {
         backgroundColor: "#e5e5e5", 
@@ -16,11 +18,12 @@ const LoginButton = () => {
         marginLeft: "30%"        
     };
 
+
     return (
         <button
-            className="btn btn-primary btn-block"
+            className="login-button"
             onClick={() => loginWithRedirect()}
-            style={buttonStyles}
+
         >
             Login
         </button>

@@ -2,6 +2,13 @@
 We have been building and developing this travel website that highlights different destinations, so users can explore different sites for each country and city, view information related to them, and see all the details.
 
 
+## Group Members:
+1. Aya Alkersanah.
+2. Noor Almasri.
+3. Anwer Albadarneh.
+4. Hassan Alfrehat.
+
+
 ## Features:
 ### Travel Destination Project
 The Travel Destination Project is a comprehensive web application designed to help travelers plan their trips effectively and discover exciting destinations worldwide. Whether you're a seasoned globetrotter or a first-time traveler, this platform offers a user-friendly interface and powerful features to enhance your travel experience.
@@ -28,19 +35,18 @@ The Travel Destination Project provides a one-stop solution for travel enthusias
 The Travel Destination Project (TravelBliss) is your passport to seamless, enriching travel experiences. Start exploring, planning, and embarking on unforgettable journeys with the click of a button. Bon voyage! 🌍✈️
 
 
-## Group Members:
-1. Aya Alkersanah
-2. Noor Almasri
-3. Anwer Albadarneh
-4. Hassan Alfrehat
+
 
 ## Tools Used:
 
-- HTML
-- CSS
-- JavaScript
-- React
-- npm 
+- HTML.
+- CSS.
+- JavaScript.
+- React.
+- npm.
+- GitHub.
+- VS code.
+- Teams.
 
 
 ## Getting Started:
@@ -57,6 +63,7 @@ after that write npm start to run the server like this:
 
 
 ## References:
+
 [w3school](https://www.w3schools.com/colors/colors_picker.asp) - w3school website.
 
 [fontawesome](https://fontawesome.com/) -library of font awesome.

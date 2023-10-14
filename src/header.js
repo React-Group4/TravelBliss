@@ -26,7 +26,7 @@ function Header() {
 
             <Nav.Link href="/" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap"}} className='st'>Home 🏚️</Nav.Link>
             <Nav.Link href="/destination" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap" }} className='st'>Destinations ✈️</Nav.Link>
-            <Nav.Link href="/favorites" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap"}} className='st'>Favorites ❤️</Nav.Link>
+           {isAuthenticated && <Nav.Link href="/favorites" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap"}} className='st'>Favorites ❤️</Nav.Link>}
             <Nav.Link href="/about-us" style={{fontSize:"25px" , color:"black" , color:"white", whiteSpace: "nowrap"}} className='st'>About Us 📞</Nav.Link>
 
 

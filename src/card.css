@@ -1,0 +1,65 @@
+.cardContainer {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:2%;
+    gap: 20px;
+}
+
+
+#cardsFavorites{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:9%;
+    gap: 20px;
+    
+
+}
+.show-details-button,
+.show-address-button,
+.go-to-destination-button {
+  background-color: #005b96;
+  color: white;
+  border: 2px solid #e4edf2;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.show-details-button:hover,
+.show-address-button:hover,
+.go-to-destination-button:hover {
+  background-color: #3498db; 
+  border: 2px solid #e4edf2;
+}
+
+.remove-button,
+.close-button {
+  background-color: #990000;
+  color: white;
+  border: 2px solid ;
+  border-radius: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.remove-button:hover,
+.close-button:hover {
+  background-color: #800000;
+  border: 2px solid #990000;
+}
+
+.favorite-button {
+  color: red;
+  background-color: transparent ;
+  border: none;
+  transition: color 0.3s ease , background-color 0.3s ease ;
+}
+
+.favorite-button:hover {
+  color: darkred;
+  background-color: #f0f0f0;
+}
+.favorite-button.pressed {
+  color: black; /* Set the desired color when the button is pressed */
+  background-color: #c0c0c0; /* Set the desired background color when the button is pressed */
+}
+

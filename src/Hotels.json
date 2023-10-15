@@ -1,0 +1,847 @@
+[
+  {
+    "name": "The Ritz Paris",
+    "city":"Paris, France",
+    "image_url": "https://hi-cdn.t-rp.co.uk/images/hotels/118180/0?width=870&height=480&crop=false",
+    "rating": 4,
+    "reviews": 220,
+    "address": "15 Place Vendôme, 75001 Paris, France"
+  },
+  {
+    "name": "Hotel Le Meurice",
+    "city":"Paris, France",
+    "image_url": "https://baroquelifestyle.com/wp-content/uploads/2018/04/g-louis2-restaurant-la-tremoille-exterior-72.jpg",
+    "rating": 5,
+    "reviews": 264,
+    "address": "228 Rue de Rivoli, 75001 Paris, France"
+  },
+  {
+      "name": "Hotel de Crillon, A Rosewood Hotel",
+      "city": "Paris, France",
+      "image_url": "https://images.rosewoodhotels.com/is/image/rwhg/hotel-de-crillon-faade-extrieur-adrian-houston-2019-1:TALL-LARGE-9-16",
+      "rating": 4,
+      "reviews": 220,
+      "address": "10 Place de la Concorde, 75008 Paris, France"
+    },
+    {
+      "name": "Mandarin Oriental, Paris",
+      "city": "Paris, France",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mandarin_Oriental_Paris_Courtyard.jpg",
+      "rating": 2,
+      "reviews": 264,
+      "address": "251 Rue Saint-Honoré, 75001 Paris, France"
+    },
+    {
+      "name": "Le Bristol Paris",
+      "city": "Paris, France",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/H%C3%B4tel_le_Bristol_%28Paris%29.jpg",
+      "rating": 5,
+      "reviews": 320,
+      "address": "112 Rue du Faubourg Saint-Honoré, 75008 Paris, France"
+    },
+  {
+    "name": "Hyatt Regency Kyoto",
+    "city": "Kyoto, Japan",
+    "image_url": "https://pix8.agoda.net/hotelImages/70111/-1/b753d9f05944f4838ac1acc4d68d6ed8.jpg?ca=18&ce=1&s=512x384",
+    "rating": 3,
+    "reviews": 210,
+    "address": "644-2 Sanjusangendōmawarichō, Higashiyama-ku, Kyoto, 605-0941, Japan"
+  },
+  {
+    "name": "The Ritz-Carlton Kyoto",
+    "city": "Kyoto, Japan",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jxu5I5LcoFF-ZRex3UgYrjAR0Zc1Fj-USDI517MuRDASBziqXTLrUBjRXFj_qOj1OFI&usqp=CAU",
+    "rating": 4,
+    "reviews": 245,
+    "address": "Kamogawa Nijō-Ōhashi Higashi, Higashiyama-ku, Kyoto, 605-0902, Japan"
+  },
+  {
+      "name": "Gion Hatanaka",
+      "city": "Kyoto, Japan",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnBmq8Ri-ZV4T0EGVVlk-BhQ-jMv1-nSrSxw&usqp=CAU",
+      "rating": 3,
+      "reviews": 215,
+      "address": "505 Gionmachi Minamigawa, Higashiyama Ward, Kyoto, 605-0074, Japan"
+    },
+    {
+      "name": "Sakura Terrace The Gallery",
+      "city": "Kyoto, Japan",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdC14xGfkRlIZYGYOsJnoMLs1kNcUsS8kuUw&usqp=CAU",
+      "rating": 5,
+      "reviews": 310,
+      "address": "39 Higashikujo Kamitonodacho, Minami Ward, Kyoto, 601-8003, Japan"
+    },
+    {
+      "name": "Kyoto Granbell Hotel",
+      "city": "Kyoto, Japan",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/105620594.jpg?k=b02fcc8afe474e7ae173d108a3ad7091037b3ed2fb031bc0cd3827d1b8fe21a4&o=&hp=1",
+      "rating": 4,
+      "reviews": 245,
+      "address": "410 Nishidaimonjicho, Higashiyama Ward, Kyoto, 605-0001, Japan"
+    },
+
+
+  {
+    "name": "The St. Regis New York",
+    "city": "New York City, USA",
+    "image_url": "https://qtxasset.com/quartz/qcloud1/media/image/hotelmanagement/1572632866/St-Regis-New-York.jpg?VersionId=hu49uRyQrqhsYlFbE3O8eRzjImEwMrcQ",
+    "rating": 5,
+    "reviews": 324,
+    "address": "2 E 55th St, New York, NY 10022, USA"
+  },
+  {
+    "name": "The Langham, New York, Fifth Avenue",
+    "city": "New York City, USA",
+    "image_url": "https://www.dux.se/globalassets/inriver/images/the-langham-hotel_new-york_outside_20.jpg?width=992&height=661&mode=crop&format=jpg&quality=75",
+    "rating": 2,
+    "reviews": 148,
+    "address": "400 5th Ave, New York, NY 10018, USA"
+  }, 
+  {
+      "name": "The Peninsula New York",
+      "city": "New York City, USA",
+      "image_url": "https://i.ytimg.com/vi/EeR14ZaJUcQ/hqdefault.jpg",
+      "rating": 3,
+      "reviews": 215,
+      "address": "700 5th Ave, New York, NY 10019, USA"
+    },
+    {
+      "name": "The Mark",
+      "city": "New York City, USA",
+      "image_url": "https://pyxis.nymag.com/v1/imgs/f5d/3b7/8f6d6865eb14420baed01510561dc92d89-the-mark-met-gala-lede.rvertical.w570.jpg",
+      "rating": 4,
+      "reviews": 275,
+      "address": "25 E 77th St, New York, NY 10075, USA"
+    },
+    {
+      "name": "The Chatwal, a Luxury Collection Hotel, New York City",
+      "city": "New York City, USA",
+      "image_url": "https://goop-img.com/wp-content/uploads/2018/12/chatwal-3.jpeg",
+      "rating": 5,
+      "reviews": 310,
+      "address": "130 W 44th St, New York, NY 10036, USA"
+    },
+  {
+    "name": "The Twelve Apostles Hotel and Spa",
+    "city":  "Cape Town, South Africa",
+    "image_url": "https://i0.wp.com/thelifestylehunter.com/wp-content/uploads/2019/05/12-Apostles-Hotel-and-Spa-Camps-Bay-Cape-Town-South-Africa-2913.jpg?fit=667%2C1000&ssl=1",
+    "rating": 5,
+    "reviews": 324,
+    "address": "Victoria Rd, Camps Bay, Cape Town, 8005, South Africa"
+  },
+  {
+      "name": "Cape Grace Hotel",
+      "city":  "Cape Town, South Africa",
+      "image_url": "https://www.ahstatic.com/photos/c014_ho_00_p_1024x768.jpg",
+      "rating": 4,
+      "reviews": 148,
+      "address": "West Quay Rd, Victoria & Alfred Waterfront, Cape Town, 8002, South Africa"
+    },
+    {
+      "name": "The Silo Hotel",
+      "city":  "Cape Town, South Africa",
+      "image_url": "https://www.theworldwidewebers.com/wp-content/uploads/2019/07/IMG_1028.jpg",
+      "rating": 4,
+      "reviews": 215,
+      "address": "Silo Square, V & A Waterfront, Cape Town, 8001, South Africa"
+    },
+    {
+      "name": "The Table Bay Hotel",
+      "city":  "Cape Town, South Africa",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRraH3UnxtZPnVWDp5gKeLXMcNmF1e1nMaPJA&usqp=CAU",
+      "rating": 3,
+      "reviews": 225,
+      "address": "Quay 6, Victoria & Alfred Waterfront, Cape Town, 8001, South Africa"
+    },
+    {
+      "name": "The Oyster Box",
+      "city":  "Cape Town, South Africa",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl83irJibpV_fYJvZADj7SWGyoJ0leZ-lY3w&usqp=CAU",
+      "rating": 5,
+      "reviews": 330,
+      "address": "2 Lighthouse Rd, Umhlanga, 4320, South Africa"
+    },
+  {
+    "name": "Park Hyatt Sydney",
+    "city": "Sydney, Australia",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0IGIKZdh00x-3rT6BFG-3f2aiQ8UmlBuDnQ&usqp=CAU",
+    "rating": 1,
+    "reviews":107,
+    "address": "7 Hickson Rd, The Rocks, Sydney NSW 2000, Australia"
+  },
+  {
+    "name": "Four Seasons Hotel Sydney",
+    "city": "Sydney, Australia", 
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSos4x1uOc9y1zEIP9nkd-YHoHoqnRwSIDXfg&usqp=CAU",
+    "rating": 5,
+    "reviews": 248,
+    "address": "199 George St, Sydney NSW 2000, Australia"
+  },
+  {
+    "name": "The Langham, Sydney",
+    "city": "Sydney, Australia",
+    "image_url": "https://ik.imgkit.net/3vlqs5axxjf/external/https://www.cfmedia.vfmleonardo.com/imageRepo/2/0/67/199/908/TLSYD_exterior_with_pink_taxi_2015_hires_O.jpg?tr=w-360%2Ch-379%2Cfo-auto",
+    "rating": 4, 
+    "reviews": 275,
+    "address": "89-113 Kent St, Millers Point NSW 2000, Australia"
+  },
+  {
+    "name": "The Darling",
+    "city": "Sydney, Australia",
+    "image_url": "https://cdn.abcotvs.com/dip/images/6253323_061720-kfsn-6p-darling-hotel-vid.jpg?w=1600",
+    "rating": 3,
+    "reviews": 222,
+    "address": "80 Pyrmont St, Pyrmont NSW 2009, Australia"
+  },
+  {
+    "name": "Shangri-La Hotel Sydney",
+    "city": "Sydney, Australia",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5O5V3WeppSNkPXEUgvXU5WxpUhHzC7AnebQ&usqp=CAU",
+    "rating": 3,
+    "reviews": 217,
+    "address": "176 Cumberland St, The Rocks NSW 2000, Australia"
+  },
+  {
+    "name": "Belmond Copacabana Palace",
+    "city": "Rio de Janeiro, Brazil",
+    "image_url": "https://www.thesouthamericaspecialists.com/sites/default/files/styles/1920x1200adaptive/public/slideshow-pics/Copacabanapalace5_0.jpg?itok=5mteSOQq&slideshow=true&slideshowAuto=true&slideshowSpeed=5000&speed=350&transition=elastic",
+    "rating": 3,
+    "reviews": 226,
+    "address": "Av. Atlântica, 1702 - Copacabana, Rio de Janeiro - RJ, 22021-001, Brazil"
+  },
+  {
+    "name": "Fasano Hotel Rio de Janeiro",
+    "city": "Rio de Janeiro, Brazil",
+    "image_url": "https://static.toiimg.com/photo/53868289.cms",
+    "rating": 5,
+    "reviews": 311,
+    "address": "Av. Vieira Souto, 80 - Ipanema, Rio de Janeiro - RJ, 22420-000, Brazil"
+  },
+  {
+    "name": "Hotel Emiliano Rio",
+    "city": "Rio de Janeiro, Brazil",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0dg7oqZqlFEUZxkei-l6tQecZW23dMN99Xg&usqp=CAU",
+    "rating": 2,
+    "reviews": 176,
+    "address": "Av. Atlântica, 3804 - Copacabana, Rio de Janeiro - RJ, 22070-001, Brazil"
+  },
+  {
+    "name": "Hotel Santa Teresa Rio MGallery",
+    "city": "Rio de Janeiro, Brazil",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Bj6Zcstd6RJMhxWq3EgJZ6ym69sj9LeIeg&usqp=CAU",
+    "rating": 4,
+    "reviews": 248,
+    "address": "Rua Almirante Alexandrino, 660 - Santa Teresa, Rio de Janeiro - RJ, 20241-260, Brazil"
+  },
+  {
+    "name": "Grand Hyatt Rio de Janeiro",
+    "city": "Rio de Janeiro, Brazil",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcMe3V0JJ7wlOE9NjLr8r2TTreDieZHjqtYg&usqp=CAU",
+    "rating": 4,
+    "reviews": 258,
+    "address": "Av. Lúcio Costa, 9600 - Barra da Tijuca, Rio de Janeiro - RJ, 22795-007, Brazil"
+  },
+  {
+    "name": "Hotel Arts Barcelona",
+    "city":  "Barcelona, Spain",
+    "image_url": "https://images.squarespace-cdn.com/content/v1/549d41a3e4b003c6ce131926/1472030981858-NZQK0U6T1W4EBS38EMMX/image-asset.jpeg",
+    "rating": 5,
+    "reviews": 327,
+    "address": "Carrer de la Marina, 19-21, 08005 Barcelona, Spain"
+  },
+  {
+    "name": "Majestic Hotel & Spa Barcelona",
+    "city":  "Barcelona, Spain",
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/ef/81/36/sunset-at-passeig-de.jpg?w=700&h=-1&s=1",
+    "rating": 5,
+    "reviews": 311,
+    "address": "Passeig de Gràcia, 68, 08007 Barcelona, Spain"
+  },
+  {
+    "name": "Hotel Casa Fuster G.L Monumento",
+    "city":  "Barcelona, Spain",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb5ys-jj5MxY6O-RKNt8IJAMisrLgXayPNtg&usqp=CAU",
+    "rating": 3,
+    "reviews": 211,
+    "address": "Passeig de Gràcia, 132, 08008 Barcelona, Spain"
+  },
+  {
+    "name": "Hotel The Serras",
+    "city":  "Barcelona, Spain",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6WoqJlN7cHxvKQRLIsGIxclj_RNaJbdJytw&usqp=CAU",
+    "rating": 4,
+    "reviews": 248,
+    "address": "Passeig de Colom, 9, 08002 Barcelona, Spain"
+  },
+  {
+    "name": "Hotel El Palace Barcelona",
+    "city":  "Barcelona, Spain",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1qEIFgDn43iuYqbXFcjAOTDxMj7vPgTMcQ&usqp=CAU",
+    "rating": 3,
+    "reviews": 217,
+    "address": "Gran Via de les Corts Catalanes, 668, 08010 Barcelona, Spain"
+  },
+  {
+    "name": "Park Hyatt Tokyo",
+    "city": "Tokyo, Japan",
+    "image_url": "https://skift.com/wp-content/uploads/2018/09/Image-from-iOS-1-e1537528306324.jpg",
+    "rating": 3,
+    "reviews": 216,
+    "address": "3-7-1-2 Nishi Shinjuku, Shinjuku City, Tokyo 163-1055, Japan"
+  },
+  {
+    "name": "The Peninsula Tokyo",
+    "city": "Tokyo, Japan",
+    "image_url": "https://cdn.kiwicollection.com/media/property/PR005510/xl/The-Peninsula-Tokyo-005510-01-The-Lobby-Table-Set-up.jpg?cb=1463609109",
+    "rating": 1,
+    "reviews": 107,
+    "address": "1-8-1 Yurakucho, Chiyoda City, Tokyo 100-0006, Japan"
+  },
+  {
+      "name": "The Prince Park Tower Tokyo",
+      "city": "Tokyo, Japan",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPaaVq5lvAS7J_BPZ4GPypKDbi_14ruusIAQ&usqp=CAU",
+      "rating": 4,
+      "reviews": 278,
+      "address": "4-8-1 Shibakoen, Minato City, Tokyo 105-8563, Japan"
+    },
+    {
+      "name": "Aman Tokyo",
+      "city": "Tokyo, Japan",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/15/82/86/aman-tokyo-japan-lobby.jpg?w=700&h=-1&s=1",
+      "rating": 4,
+      "reviews": 255,
+      "address": "1-5-6 Otemachi, Chiyoda City, Tokyo 100-0004, Japan"
+    },
+    {
+      "name": "Mandarin Oriental Tokyo",
+      "city": "Tokyo, Japan",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNi2cSs53_HZaN_xpplXTKTCPnXZDDMZOZ0Q&usqp=CAU",
+      "rating": 5,
+      "reviews": 317,
+      "address": "2-1-1 Nihonbashi Muromachi, Chuo City, Tokyo 103-8328, Japan"
+    },
+  {
+    "name": "Gritti Palace, a Luxury Collection Hotel",
+    "city": "Venice, Italy",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/433361948.jpg?k=93517212d5fccc6a9b4d24c5149f1d57059a7b17857c2976565e5767bc0538d1&o=&hp=1",
+    "rating": 3,
+    "reviews": 216,
+    "address": "Campo Santa Maria del Giglio, 2467, 30124 Venice, Italy"
+  },
+  {
+    "name": "Ca' Sagredo Hotel",
+    "city": "Venice, Italy",
+    "image_url": "https://i.pinimg.com/736x/77/f2/fc/77f2fc619db94e924217035972111477--hotels-in-venice-italy-grand-canal.jpg",
+    "rating": 4,
+    "reviews": 218,
+    "address": "Cannaregio, 4198, 30121 Venice, Italy"
+  }, 
+  {
+      "name": "Hotel Danieli, a Luxury Collection Hotel",
+      "city": "Venice, Italy",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0W1sDrVuPGatfehkw40f-lZZ5QGNAWqbahQ&usqp=CAU",
+      "rating": 5,
+      "reviews": 341,
+      "address": "Riva degli Schiavoni, 4196, 30122 Venice, Italy"
+    },
+    {
+      "name": "Hotel Londra Palace",
+      "city": "Venice, Italy",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKTUe-wJrbG9KREfaUHyvJqmJnoj5pOxmkRg&usqp=CAU",
+      "rating": 4,
+      "reviews": 255,
+      "address": "Riva degli Schiavoni, 4171, 30122 Venice, Italy"
+    },
+    {
+      "name": "Hotel Metropole",
+      "city": "Venice, Italy",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPhVjJ_8pSgJ850_FDanOnSfp1ozB3jIHdPlFqOXa4yQ_-JY2rQ4tD7FolBSLTdH0NqEA&usqp=CAU",
+      "rating": 2,
+      "reviews": 217,
+      "address": "Riva degli Schiavoni, 4149, 30122 Venice, Italy"
+    },
+
+    {
+    "name": "Burj Al Arab Jumeirah",
+    "city": "Dubai, UAE",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/457389536.jpg?k=1b5b93930a67d2372178da9df3c090ec47fb1f5622f5664dde18c4362f31b355&o=&hp=1",
+    "rating": 5,
+    "reviews": 324,
+    "address": "Jumeirah St - Umm SuqeimUmm Suqeim 3 - Dubai - United Arab Emirates"
+  },
+  {
+    "name": "Atlantis The Palm",
+    "city": "Dubai, UAE",
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ea/99/11/exterior.jpg?w=700&h=-1&s=1",
+    "rating": 3,
+    "reviews": 148,
+    "address": "Atlantis The Palm, Crescent Rd - Dubai - United Arab Emirates"
+  }, 
+  {
+      "name": "Jumeirah Al Qasr",
+      "city": "Dubai, UAE",
+      "image_url": "https://goingluxury.com/wp-content/uploads/2016/07/al-qasr75.jpg",
+      "rating": 2,
+      "reviews": 165,
+      "address": "Jumeirah Beach Rd - Dubai - United Arab Emirates"
+    },
+    {
+      "name": "Jumeirah Dar Al Masyaf",
+      "city": "Dubai, UAE",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/296011633.jpg?k=ab792fb0e8e7d50ca35283ad6bceb22e68186896035cc76b5afed501e217176d&o=&hp=1",
+      "rating": 4,
+      "reviews": 271,
+      "address": "King Salman bin Abdulaziz Al Saud St - Dubai - United Arab Emirates"
+    },
+    {
+      "name": "One&Only The Palm",
+      "city": "Dubai, UAE",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/447701800.jpg?k=1d81a7701934269d9515ecee48972fb5e05381c5d3d48d23e179df4119416c2c&o=&hp=1",
+      "rating": 5,
+      "reviews": 300,
+      "address": "West Crescent, Palm Jumeirah - Dubai - United Arab Emirates"
+    },
+{
+    "name": "La Mamounia Marrakech",
+    "city": "Marrakech, Morocco",
+    "image_url": "https://mamounia.com/media/cache/jadro_resize/rc/uwD4SUpk1687253756/jadroRoot/medias/611cca0f424ac/le-pavillon-de-la-piscine-0800.jpg",
+    "rating": 2,
+    "reviews": 164,
+    "address": "Avenue Bab Jdid, Marrakech 40040, Morocco"
+  },
+  {
+    "name": "Royal Mansour Marrakech",
+    "city": "Marrakech, Morocco",
+    "image_url": "https://elitetraveler.com/wp-content/uploads/sites/8/2020/01/Royal-Mansour.png",
+    "rating": 2,
+    "reviews": 148,
+    "address": "Rue Abou Abbas El Sebti, Marrakech 40000, Morocco"
+  }, 
+  {
+      "name": "Mandarin Oriental, Marrakech",
+      "city": "Marrakech, Morocco",
+      "image_url": "https://media.glamourmagazine.co.uk/photos/6435465174e2f95cc0bab9b5/16:9/w_2560%2Cc_limit/MARRAKECH%2520110423%2520MAIN.jpg",
+      "rating": 5,
+      "reviews": 311,
+      "address": "Route Golf Royal, Marrakech 40000, Morocco"
+    },
+    {
+      "name": "Amanjena",
+      "city": "Marrakech, Morocco",
+      "image_url": "https://media.privateupgrades.com/_data/default-hotel_image/11/56508/amanjena-4_1400x1400_auto.jpg",
+      "rating": 3,
+      "reviews": 246,
+      "address": "Route de Ouarzazate, Marrakech 40000, Morocco"
+    },
+    {
+      "name": "Selman Marrakech",
+      "city": "Marrakech, Morocco",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/344098596.jpg?k=50fa962635e4c8ba10b395fb0f82f5aa9172f7c33a241ee56d23fc84f2f37e06&o=&hp=1",
+      "rating": 4,
+      "reviews": 266,
+      "address": "Km 5, Route d'Amezmiz, Marrakech 40000, Morocco"
+    },
+{
+    "name": "The Ritz London",
+    "city": "London, UK",
+    "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/0f/0d/04/the-ritz-london-exterior.jpg?w=700&h=-1&s=1",
+    "rating": 3,
+    "reviews": 216,
+    "address": "150 Piccadilly, St. James's, London W1J 9BR, United Kingdom"
+  },
+  {
+    "name": "The Langham, London",
+    "city": "London, UK",
+    "image_url": "https://lirp.cdn-website.com/afde8c67/dms3rep/multi/opt/The_Langham_Hotel-532x377-640w.jpg",
+    "rating": 3,
+    "reviews": 189,
+    "address": "1C Portland Place, Regent Street, London W1B 1JA, United Kingdom"
+  }, 
+  {
+      "name": "The Connaught",
+      "city": "London, UK",
+      "image_url": "https://www.adaytoremember.london/sites/default/files/inline-images/Connaught%20FRONT_DOOR_207.png",
+      "rating": 3,
+      "reviews": 211,
+      "address": "Carlos Pl, Mayfair, London W1K 2AL, United Kingdom"
+    },
+    {
+      "name": "Claridge's",
+      "city": "London, UK",
+      "image_url": "https://media.vanityfair.com/photos/54cab789494254fc0996f14b/1:1/pass/image.jpg",
+      "rating": 4,
+      "reviews": 258,
+      "address": "Brook St, Mayfair, London W1K 4HR, United Kingdom"
+    },
+    {
+      "name": "The Dorchester",
+      "city": "London, UK",
+      "image_url": "https://media.tatler.com/photos/64491d544b0c1dd744840940/4:3/w_5976,h_4482,c_limit/JS308250%20(1).jpg",
+      "rating": 5,
+      "reviews": 318,
+      "address": "53 Park Ln, Mayfair, London W1K 1QA, United Kingdom"
+    },
+{
+    "name": "Waldorf Astoria Amsterdam",
+    "city": "Amsterdam, Netherlands",
+    "image_url": "https://phgcdn.com/images/uploads/AMSWA/masthead/AMSWA-masthead-waldorfastoriaamsterdamherengracht.jpg",
+    "rating": 4,
+    "reviews": 216,
+    "address": "Herengracht 542-556, 1017 CG Amsterdam, Netherlands"
+  },
+  {
+    "name": "Pulitzer Amsterdam",
+    "city": "Amsterdam, Netherlands",
+    "image_url": "https://hospitality-on.com/sites/default/files/import/contenu/pulitzermsterdam_opt.jpg",
+    "rating": 5,
+    "reviews": 289,
+    "address": "Prinsengracht 323, 1016 GZ Amsterdam, Netherlands"
+  }, 
+  {
+      "name": "Hotel TwentySeven",
+      "city": "Amsterdam, Netherlands",
+      "image_url": "https://www.rjbgroup.nl/wp-content/uploads/2021/12/dam-12k-1.jpg",
+      "rating": 2,
+      "reviews": 291,
+      "address": "Dam 27, 1012 JS Amsterdam, Netherlands"
+    },
+    {
+      "name": "Conservatorium Hotel",
+      "city": "Amsterdam, Netherlands",
+      "image_url": "https://150102931.v2.pressablecdn.com/wp-content/uploads/2013/07/conservatorium-amsterdam-1-thumb-620x423-64135.jpg",
+      "rating": 1,
+      "reviews": 117,
+      "address": "Van Baerlestraat 27, 1071 AN Amsterdam, Netherlands"
+    }, 
+    {
+      "name": "The Dylan Amsterdam",
+      "city": "Amsterdam, Netherlands",
+      "image_url": "https://www.fivestaralliance.com/files/fivestaralliance.com/field/image/nodes/2019/28027/Dylan%20Amsterdam.jpg",
+      "rating": 3,
+      "reviews": 217,
+      "address": "Keizersgracht 384, 1016 GB Amsterdam, Netherlands"
+    },
+    {
+    "name": "The Ritz-Carlton, Berlin",
+    "city": "Berlin, Germany",
+    "image_url": "https://www.ligea.com/content/uploads/2021/05/the-ritz-carlton.jpeg",
+    "rating": 5,
+    "reviews": 216,
+    "address": "Potsdamer Platz 3, 10785 Berlin, Germany"
+  },
+  {
+    "name": "Hotel Adlon Kempinski Berlin",
+    "city": "Berlin, Germany",
+    "image_url": "https://www.kempinski.com/var/site/storage/images/0/9/6/3/813690-1-eng-GB/aea3272e171d-74533698_4K.jpg",
+    "rating": 1,
+    "reviews": 107,
+    "address": "Unter den Linden 77, 10117 Berlin, Germany"
+  }, 
+  {
+      "name": "Regent Berlin",
+      "city": "Berlin, Germany",
+      "image_url": "https://photos.wikimapia.org/p/00/00/88/49/79_big.jpg",
+      "rating": 4,
+      "reviews": 278,
+      "address": "Charlottenstraße 49, 10117 Berlin, Germany"
+    },
+    {
+      "name": "Hotel de Rome",
+      "city": "Berlin, Germany",
+      "image_url": "https://media.cntraveler.com/photos/6109ae0da82e8605e160c989/16:9/w_2560,c_limit/Hotel%20de%20Rome,%20a%20Rocco%20Forte%20Hotel_79134102-H1-RFHHoteldeRome-Facade8521JGNov16.jpg",
+      "rating": 3,
+      "reviews": 211,
+      "address": "Behrenstraße 37, 10117 Berlin, Germany"
+    }, 
+    {
+      "name": "Hotel am Steinplatz, Autograph Collection",
+      "city": "Berlin, Germany",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/437367265.jpg?k=2417e182527eabfaa31f9cfd38a1a2ef624f38a5e53c3fee3a3d953b2bfbe040&o=&hp=1",
+      "rating": 3,
+      "reviews": 245,
+      "address": "Steinpl. 4, 10623 Berlin, Germany"
+    },
+  
+  
+{
+    "name": "Aria Hotel Prague",
+    "city": "Prague, Czech Republic",
+    "image_url": "https://www.holysmithereens.com/wp-content/uploads/2015/12/10868059_762834230509662_660585642852702753_n.jpg",
+    "rating": 4,
+    "reviews": 287,
+    "address": "Tržiště 9, 118 00 Malá Strana, Czechia"
+  },
+  {
+    "name": "Four Seasons Hotel Prague",
+    "city": "Prague, Czech Republic",
+    "image_url": "https://amuraworld.com/images/articles/90-praga/060-four-seasons-praga/four-seasons-praga.png",
+    "rating": 4,
+    "reviews": 276,
+    "address": "Veleslavínova 2a/1098, 110 00 Staré Město, Czechia"
+  }, 
+  {
+      "name": "Mandarin Oriental, Prague",
+      "city": "Prague, Czech Republic",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/100213133.jpg?k=0cccfe7ac60a9661c5bbce4e7f9694902faed0cb366b17e460d2646dc420918c&o=&hp=1",
+      "rating": 5,
+      "reviews": 311,
+      "address": "Nebovidská 459/1, 118 00 Malá Strana, Czechia"
+    },
+    {
+      "name": "Alchymist Grand Hotel & Spa",
+      "city": "Prague, Czech Republic",
+      "image_url": "https://www.hotelsprague.cz/images/hotels-photos/alchymist/pohled_b.jpg",
+      "rating": 2,
+      "reviews": 235,
+      "address": "Tržiště 19, 118 00 Malá Strana, Czechia"
+    }, 
+    {
+      "name": "Golden Well Hotel",
+      "city": "Prague, Czech Republic",
+      "image_url": "https://www.i-escape.com/image/hotel/golden-well-hotel/overview/187006.jpg",
+      "rating": 2,
+      "reviews": 217,
+      "address": "U Zlaté studně 166/4, 118 00 Malá Strana, Czechia"
+    },
+{
+    "name": "Marina Bay Sands",
+    "city":  "Singapore",
+    "image_url": "https://www.marinabaysands.com/content/dam/marinabaysands/company-information/masthead-desktop-1920x1080.jpg",
+    "rating": 3,
+    "reviews": 216,
+    "address": "10 Bayfront Ave, Singapore 018956"
+  },
+  {
+    "name": "The Ritz-Carlton, Millenia Singapore",
+    "city":  "Singapore",
+    "image_url": "https://s7d1.scene7.com/is/image/marriotts7prod/cornucopia:Classic-Hor?wid=1336&fit=constrain",
+    "rating": 1,
+    "reviews": 100,
+    "address": "7 Raffles Ave, Singapore 039799"
+  }, 
+  {
+      "name": "The Fullerton Bay Hotel Singapore",
+      "city":  "Singapore",
+      "image_url": "https://res.klook.com/image/upload/fl_lossy.progressive,c_fill,w_750,q_85/v1616659128/hotel/akaqfjqizfqmrepohmea.webp",
+      "rating": 2,
+      "reviews": 231,
+      "address": "80 Collyer Quay, Singapore 049326"
+    },
+    {
+      "name": "The Fullerton Hotel Singapore",
+      "city":  "Singapore",
+      "image_url": "https://www.sg101.gov.sg/images/connexionsg/2023/fullerton%20hotel.jpg",
+      "rating": 3,
+      "reviews": 233,
+      "address": "1 Fullerton Square, Singapore 049178"
+    },
+    {
+      "name": "The Capitol Kempinski Hotel Singapore",
+      "city":  "Singapore",
+      "image_url": "https://i0.wp.com/iwandered.net/wp-content/uploads/2021/07/51298490698_d2ab7b4a92_c.jpg?fit=799%2C533&ssl=1",
+      "rating": 4,
+      "reviews": 268,
+      "address": "15 Stamford Rd, Singapore 178906"
+    },
+{
+  "name": "Ayana Resort and Spa",
+  "city": "Bali, Indonesia",
+  "image_url": "https://admin-hotel.kura2bus.com/upload/image/property/uhZjhFBEDR.jpg",
+  "rating": 4,
+  "reviews": 216,
+  "address": "Jl. Karang Mas Sejahtera, Jimbaran, Kuta Sel., Kabupaten Badung, Bali 80364, Indonesia"
+},
+{
+  "name": "Four Seasons Resort Bali at Sayan",
+  "city": "Bali, Indonesia",
+  "image_url": "https://www.fivestaralliance.com/files/fivestaralliance.com/field/image/nodes/2009/10326/10326_0_fourseasonssayanbali_fsa-g.jpg",
+  "rating": 5,
+  "reviews": 311,
+  "address": "Sayan, Ubud, Gianyar, Bali 80571, Indonesia"
+}, 
+{
+    "name": "The Mulia",
+    "city": "Bali, Indonesia",
+    "image_url": "https://d3emaq2p21aram.cloudfront.net/media/cache/venue_carousel/uploads/2014/10/The-Mulia-Resort-Spa_Bali_Indonesia_Venue_events-4.png",
+    "rating": 3,
+    "reviews": 241,
+    "address": "Jl. Raya Nusa Dua Selatan, Kawasan Sawangan, Nusa Dua, Bali 80363, Indonesia"
+  },
+  {
+    "name": "The St. Regis Bali Resort",
+    "city": "Bali, Indonesia",
+    "image_url": "https://st-regis-bali-resort-nusa-dua.bali-tophotels.com/data/Pictures/OriginalPhoto/12777/1277784/1277784124/picture-nusa-dua-bali-st-regis-bali-resort-nusa-dua-7.JPEG",
+    "rating": 3,
+    "reviews": 211,
+    "address": "Kawasan Pariwisata, Nusa Dua, Lot S6, Nusa Dua, Bali 80363, Indonesia"
+  },
+  {
+    "name": "The Legian Bali",
+    "city": "Bali, Indonesia",
+    "image_url": "https://media.cntraveler.com/photos/55f0517c4cb36d1b2f0e63a3/16:9/w_2560%2Cc_limit/the-legian-bali-indonesia-exterior.jpg",
+    "rating": 5,
+    "reviews": 318,
+    "address": "Jl. Kayu Aya, Seminyak Beach, Kuta, Kabupaten Badung, Bali 80361, Indonesia"
+  },
+{
+  "name": "Hotel Grande Bretagne, a Luxury Collection Hotel",
+  "city": "Athens, Greece",
+  "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/0a/27/ec/28/hotel-grande-bretagne.jpg",
+  "rating": 4,
+  "reviews": 224,
+  "address": "Syntagma Square, Athens 105 64, Greece"
+},
+{
+  "name": "Electra Metropolis Hotel",
+  "city": "Athens, Greece",
+  "image_url": "https://www.gtp.gr/MGfiles/accommodation/image38628[1339].jpg",
+  "rating": 2,
+  "reviews": 148,
+  "address": "Mitropoleos 15, Athens 105 57, Greece"
+},  
+{
+    "name": "Electra Palace Athens",
+    "city": "Athens, Greece",
+    "image_url": "https://www.fhotels.net/Admin//PHOTOS/Hotels/31/31_46_18.jpg",
+    "rating": 4,
+    "reviews": 271,
+    "address": "18-20 N Nikodimou Street, Athens 105 57, Greece"
+  },
+  {
+    "name": "King George, a Luxury Collection Hotel",
+    "city": "Athens, Greece",
+    "image_url": "https://www.kayak.co.uk/rimg/himg/4a/d2/43/leonardo-26902-160543251-098798.jpg?width=1366&height=768&crop=true",
+    "rating": 2,
+    "reviews": 246,
+    "address": "3 Vasileos Georgiou A' str., Syntagma Square, Athens 105 64, Greece"
+  },
+  {
+    "name": "New Hotel",
+    "city": "Athens, Greece",
+    "image_url": "https://thestyleexaminer.com/wp-content/uploads/2012/09/Screenshot_317.png",
+    "rating": 5,
+    "reviews": 300,
+    "address": "16 Filellinon Street, Athens 105 57, Greece"
+  },
+{
+  "name": "Four Seasons Hotel Cairo at Nile Plaza",
+  "city": "Cairo, Egypt",
+  "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94190040.jpg?k=ef1c7c9927dbc4c9bb8ade64114c12302c1490a01530fec267460efffb8fdf47&o=&hp=1",
+  "rating": 4,
+  "reviews": 296,
+  "address": "1089 Corniche El Nil, Garden City, Cairo, Egypt"
+},
+{
+  "name": "Kempinski Nile Hotel Cairo",
+  "city": "Cairo, Egypt",
+  "image_url": "https://greatsafaris.com/wp-content/uploads/2018/09/Kempinski_Nile_Hotel_ext_sunset.jpg",
+  "rating": 4,
+  "reviews": 276,
+  "address": "12 Ahmed Ragheb St, Garden City, Cairo, Egypt"
+}, 
+{
+    "name": "Four Seasons Hotel Cairo at The First Residence",
+    "city": "Cairo, Egypt",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVdmpyqapiTMeoJeyoytgM5ceKUqmejPulKGb7xc7yJKoRYY15cXLOR5B10Uz6QRI-Yyw&usqp=CAU",
+    "rating": 3,
+    "reviews": 241,
+    "address": "35 Giza Street, Giza, Cairo, Egypt"
+  },
+  {
+    "name": "The Nile Ritz-Carlton, Cairo",
+    "city": "Cairo, Egypt",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/456051765.jpg?k=03bf475a247082e40c31debabffde61ec61d622961979e383eefd689dec8a2c9&o=&hp=1",
+    "rating": 5,
+    "reviews": 233,
+    "address": "1113 Corniche El Nil, Cairo, Egypt"
+  },
+  {
+    "name": "Sofitel Cairo Nile El Gezirah",
+    "city": "Cairo, Egypt",
+    "image_url": "https://dq5r178u4t83b.cloudfront.net/wp-content/uploads/sites/23/2023/01/31121445/AHM01250_1.jpg",
+    "rating": 2,
+    "reviews": 168,
+    "address": "3 El Thawra Council St Zamalek Downtown, Cairo, Egypt"
+  },
+{
+  "name": "Grand Hôtel Stockholm",
+  "city": "Stockholm, Sweden",
+  "image_url": "https://accidentallywesanderson.com/wp-content/uploads/2020/04/44676003_267228110642226_5944515484434578607_n.jpg",
+  "rating": 5,
+  "reviews": 299,
+  "address": "Södra Blasieholmshamnen 8, 103 27 Stockholm, Sweden"
+},
+{
+  "name": "Downtown Camper by Scandic",
+  "city": "Stockholm, Sweden",
+  "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/29/4d/76/eb/downtown-camper-by-scandic.jpg",
+  "rating": 3,
+  "reviews": 256,
+  "address": "Brunkebergstorg 9, 111 51 Stockholm, Sweden"
+}, 
+{
+    "name": "Hotel Diplomat Stockholm",
+    "city": "Stockholm, Sweden",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/406554260.jpg?k=e08609cdef3209effa964c808605bb3ef3b6d0bc0c9d70bcfcc4520f219e8adb&o=&hp=1",
+    "rating": 5,
+    "reviews": 309,
+    "address": "Strandvägen 7C, 114 56 Stockholm, Sweden"
+  },
+  {
+    "name": "Hotel Rival",
+    "city": "Stockholm, Sweden",
+    "image_url": "https://cdn.ostrovok.ru/t/640x400/content/ef/e8/efe8746f2fcfe1aa99a0582051c19588b9fc80cf.jpeg",
+    "rating": 2,
+    "reviews": 168,
+    "address": "Mariatorget 3, 118 91 Stockholm, Sweden"
+  },
+  {
+    "name": "Hotel Skeppsholmen",
+    "city": "Stockholm, Sweden",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw2CYKZ9RVhTeFZqFPv-Ys3hTi2Bv07tofLw&usqp=CAU",
+    "rating": 4,
+    "reviews": 278,
+    "address": "Gröna gången 1, 111 86 Stockholm, Sweden"
+  },
+{
+  "name": "Apricot Hotel",
+  "city": "Hanoi, Vietnam",
+  "image_url": "https://cdn.audleytravel.com/4100/2927/79/1013312-apricot-hotel-hanoi.jpg",
+  "rating": 3,
+  "reviews": 266,
+  "address": "136 Hang Trong Street, Hoan Kiem District, Hanoi, Vietnam"
+},
+{
+  "name": "InterContinental Hanoi Westlake",
+  "city": "Hanoi, Vietnam",
+  "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/8878373.jpg?k=76b2656c9acbf898eb93ebe48bda45538b7adfd3ce7d29387c946b3c5acd959c&o=&hp=1",
+  "rating": 4,
+  "reviews": 276,
+  "address": "5 Từ Hoa, Tây Hồ, Hà Nội, Vietnam"
+} ,
+{
+    "name": "Sofitel Legend Metropole Hanoi",
+    "city": "Hanoi, Vietnam",
+    "image_url": "https://independenttravelcats.com/wp-content/uploads/2014/06/revised-sofitel-entrance-photo.jpg",
+    "rating": 5,
+    "reviews": 318,
+    "address": "15 Ngô Quyền, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam"
+  },
+  {
+    "name": "Hanoi La Siesta Diamond Hotel & Spa",
+    "city": "Hanoi, Vietnam",
+    "image_url": "https://waybird.imgix.net/lodge_images/images/000/084/388/original/HNE5107-Crop-150090.jpg?w=1420&h=946&crop=center%20center&fit=min&dpr=1&q=50&auto=format",
+    "rating": 3,
+    "reviews": 211,
+    "address": "32 Lò Sũ, Hàng Trống, Hoàn Kiếm, Hà Nội, Vietnam"
+  },
+  {
+    "name": "Hanoi La Siesta Hotel Trendy",
+    "city": "Hanoi, Vietnam",
+    "image_url": "https://storage.googleapis.com/hms_prod/photo/thumb/462345ugL/391324947.jpg",
+    "rating": 1,
+    "reviews": 134,
+    "address": "12 Nguyễn Quang Bích, Cửa Đông, Hoàn Kiếm, Hà Nội, Vietnam"
+  }
+]

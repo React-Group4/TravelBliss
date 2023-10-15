@@ -37,7 +37,7 @@ function Header() {
         {isAuthenticated ? 
         <>
              <LogoutButton />
-             <img src={user.picture} style={{ width: '45px', height: '45px', marginLeft: '1%', borderRadius:'50%'}} />
+             <img src={user.picture} style={{ width: '48px', height: '48px', marginLeft: '1%', borderRadius:'50%'}} />
              <h6 style={{ color: "white", fontSize: "16px", whiteSpace: "nowrap", marginLeft: '1%' }}>{user.name}</h6>
         </> 
             : <LoginButton />}

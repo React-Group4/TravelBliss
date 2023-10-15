@@ -4,7 +4,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 function Favorites(){
 
-    let {isAuthenticated, user} = useAuth0()
+    let {isAuthenticated, user,isLoading} = useAuth0()
 
     let favorites = JSON.parse(localStorage.getItem("Favorites"))
 
@@ -13,11 +13,34 @@ function Favorites(){
     function RemoveFromFavorites(index){
         favorites.splice(index,1 )
         let favoritesCopy = [...favorites]
-        setFavoriteState(favoritesCopy)
+
+        let filteredData = favoritesCopy.filter(function(item){
+             return user.email === item.email})
+
+        setFavoriteState(filteredData)
+
+       // setFavoriteState(favoritesCopy)
+
         let stringData = JSON.stringify(favoritesCopy) 
         localStorage.setItem("Favorites",stringData)} 
 
 
+            
+            // let favoritesCopy = [...favorites]
+            
+            // let filteredData = favoritesCopy.filter(function(item){
+            
+            // return user.email === item.email})
+            
+            // setFavoritesState(filteredData)
+            
+            // setFavoritesState(favoritesCopy)
+            
+            // let Data = JSON.stringify(favoritesCopy)
+            
+            // localStorage.setItem("favorites", Data)
+            
+        
 
         function filterByEmail(){
             if(isAuthenticated){
@@ -29,7 +52,11 @@ function Favorites(){
         }
 
     
-     useEffect(function(){filterByEmail()},[])
+     useEffect (() => {
+        if (!isLoading) {
+            filterByEmail();
+        }
+    },[isLoading]);
 
 
 
@@ -50,7 +77,7 @@ function Favorites(){
                 index={index}
                 RemoveFromFavorites={() => RemoveFromFavorites(index)}
                 showRemove={true}
-               // email = {user.email}
+               email = {user.email}
                 />
               )})}
 

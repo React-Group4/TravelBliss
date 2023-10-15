@@ -37,8 +37,8 @@ function Header() {
         {isAuthenticated ? 
         <>
              <LogoutButton />
-             <img src={user.picture} style={{ width: '35px', height: '35px', marginLeft: '1%', borderRadius:'50%'}} />
-             <h6 style={{ color: "white", fontSize: "14px", whiteSpace: "nowrap", marginLeft: '1%' }}>{user.name}</h6>
+             <img src={user.picture} style={{ width: '45px', height: '45px', marginLeft: '1%', borderRadius:'50%'}} />
+             <h6 style={{ color: "white", fontSize: "16px", whiteSpace: "nowrap", marginLeft: '1%' }}>{user.name}</h6>
         </> 
             : <LoginButton />}
       </Container>

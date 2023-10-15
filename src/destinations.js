@@ -41,8 +41,8 @@ function Destinations(){
           </option>
         ))}
     </Form.Select>
-    <h4 class="section-heading" id='restaurants'> Restaurants </h4>
-    <div className="cardsFilter">
+    <h4 class="section-heading" > Restaurants </h4>
+    <div className="cardContainer">
           {restaurants.map((restaurant) => (
           <CardComp 
           image={restaurant.image_url} 
@@ -61,7 +61,7 @@ function Destinations(){
         ))}
     </div>
     <h4 class="section-heading"> Hotels </h4>
-    <div className="cardsFilter">
+    <div className="cardContainer">
          {hotels.map((hotel) => (
           <CardComp
            image={hotel.image_url}
